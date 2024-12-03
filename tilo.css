@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    header{
+        text-align: center;
+        align-items: center;
+        background-color: rgb(128, 103, 94);
+        padding: 24px;
+        color: rgb(235, 223, 223);
+        position: relative;
+        align-content: space-between;
+    }
+    header form{
+        display: contents;
+        gap: 5px;
+    }
+    .menu {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(97, 78, 71); 
+      }
+      
+      .menu li {
+        display: inline-block; 
+        position: relative; 
+      }
+      
+      .menu a {
+        display: block;
+        padding: 15px 20px;
+        color: #ece4e4; 
+        text-decoration: none;
+      }
+      
+    
+      .submenu .submenu-content {
+        display: none; 
+        position: absolute;
+        background-color: rgb(97, 78, 71); 
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+        z-index: 1; 
+      }
+      
+      .submenu:hover .submenu-content {
+        display: block; 
+      }
+      
+      .submenu-content li {
+        display: block; 
+      }
+
+    main{
+        height: auto;
+        width: 100%;
+        background-color: rgb(185, 179, 176);
+
+
+    }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #bdb2a5;
+    color: #333;
+}
+
+header.header {
+    background-color: #bbb8b4;
+    color: #000000;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+header.header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header.header p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+/* Main Content */
+.main-content {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    color: #46484b;
+    border-bottom: 2px solid #241b14;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.question h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.question p {
+    margin: 0.5rem 0 1rem;
+    padding-left: 1rem;
+    border-left: 3px solid #b49d94;
+    background: #f9f9f9;
+    padding: 0.5rem;
+}
+
+/* Tips Section */
+.tips ul {
+    list-style: square;
+    padding-left: 1.5rem;
+}
+
+.tips li {
+    margin-bottom: 0.5rem;
+}
+
+/* Footer */
+footer.footer {
+    text-align: center;
+    background: #635b4b;
+    color: #fff;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}

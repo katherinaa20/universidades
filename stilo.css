@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    header{
+        text-align: center;
+        align-items: center;
+        background-color: rgb(128, 103, 94);
+        padding: 24px;
+        color: rgb(231, 223, 223);
+        position: relative;
+        align-content: space-between;
+        font-family: "Federo", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    header form{
+        display: contents;
+        gap: 5px;
+    }
+      
+      .menu {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(155, 137, 137); 
+      }
+      
+      .menu li {
+        display: inline-block; 
+        position: relative; 
+      }
+      
+      .menu a {
+        display: block;
+        padding: 15px 20px;
+        color: #f3e4e4; 
+        text-decoration: none;
+      }
+      
+    
+      .submenu .submenu-content {
+        display: none; 
+        position: absolute;
+        background-color: rgb(97, 78, 71); 
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+        z-index: 1; 
+      }
+      
+      .submenu:hover .submenu-content {
+        display: block; 
+      }
+      
+      .submenu-content li {
+        display: block; 
+      }
+
+    main{
+        height: auto;
+        width: 100%;
+        background-color: rgb(240, 220, 209);
+        display: flex;
+        justify-content: space-between;
+        font-family: "Kurale", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .university-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+    
+    .university-box {
+        background-color: #ffffff;
+        border: 2px solid #9fa3a8;
+        border-radius: 8px;
+        width: 30%;
+        min-width: 250px;
+        padding: 1rem;
+        text-align: center;
+        text-decoration: none;
+        color: #333;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    }
+    
+    .university-box:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        background-color: #e6f7ff;
+    }
+    
+    .university-box h2 {
+        margin: 0;
+        font-size: 1.5rem;
+        color: #58595a;
+    }
+    
+    .university-box p {
+        font-size: 1rem;
+        margin: 0.5rem 0 0;
+    }
+    
+    /* Footer */
+    footer.footer {
+        text-align: center;
+        background-color: #332e27;
+        color: #fff;
+        padding: 1rem 0;
+        margin-top: 2rem;
+        font-size: 0.9rem;
+    }

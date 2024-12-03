@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header>
+    <h1><big>DESCUBRI TU VOCACIÓN</big></h1> <br>
+    <nav>
+        <ul class="menu">
+          <li><a href="universidades.html">INICIO</a></li>
+          <li class="submenu">
+            <a href="#">UBICACIÓN</a>
+            <ul class="submenu-content">
+              <li><a href="rio.html">Río Negro</a></li>
+              <li><a href="viedma.html">Viedma</a></li>
+              <li><a href="nqn.html">Neuquén</a></li>
+            </ul>
+          </li>
+          <li><a href="#">PREGUNTAS</a></li>
+        </ul>
+      </nav>
+    
+</header>
+<main>
+    <div id="contenedor-1">
+        <a name="inicio"><h1><center>Universidad Nacional del Comahue </center></h1> <br></a>
+ <center><img src="data:image/png;base64,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" alt=""></center>
+    </div>
+       <center><img src="data:image/jpeg;base64,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" alt="">
+       <div id="contenedor">
+        <center><big><b><h2>Construyendo Futuro en la Patagonia</h2></b></big></center> <br>
+        <p>En esta pagina podras ver las carreras que ofrece la Universidad Nacional del Comahue, El perfil del estudiante egresado, El plan de estudio, La duración de la carrera. Tambien podras ingresar a la pagina oficial de la universidad, con la carreras.  </p> <br>
+        <p>Únete a la UNCO y sé parte de un proyecto educativo que no solo potencia tu crecimiento profesional, sino que también contribuye al desarrollo sostenible de la sociedad. nr
+
+        <br> <br>Pagina oficial: <a href="https://uncoma.edu.ar/">AQUI.</a>
+        </p>
+       </div>
+       <div id="contenedor-17">
+        <center><big><h2>INDICE</h2></big></center>
+       </div>
+<div id="contenedor-2">
+<ul class="columna columna-medio">
+    <ul>
+        <big><b>CIPOLLETTI</b></big>
+        <li><a href="#Licenciatura en Ciencias de la Educación">Licenciatura en Ciencias de la Educación</a></li>
+        <li><a href="#Licenciatura en Nutrición">Licenciatura en Nutrición</a></li>
+        <li><a href="#Medicina">Medicina</a></li>
+        <li><a href="#Profesorado en Ciencias de la Educación">Profesorado en Ciencias de la Educación</a></li>
+        <li><a href="#Profesorado en Nivel Inicial">Profesorado en Nivel Inicial</a></li>
+        <li><a href="#Profesorado Universitario de Enseñanza en Educación Primaria">Profesorado Universitario de Enseñanza en Educación Primaria</a></li>
+        <li><a href="#Psicología">Psicología</a></li>
+        <b>Mas información: <a href="https://uncoma.edu.ar/ubicaciones/cipolletti-rio-negro/">AQUI</a></b> <br> <br>
+        <big><b>GENERAL ROCA</b></big>
+        <li><a href="#Abogacía">Abogacía</a></li>
+        <li><a href="#Licenciatura en Comunicación Social">Licenciatura en Comunicación Social</a></li>
+        <li><a href="#Licenciatura en Servicio Social">Licenciatura en Servicio Social</a></li>
+        <li><a href="#Licenciatura en Sociología">Licenciatura en Sociología</a></li>
+        <li><a href="#Profesorado en Comunicación Social">Profesorado en Comunicación Social</a></li>
+        <li><a href="#Traductorado Público en Idioma Inglés">Traductorado Público en Idioma Inglés</a></li>
+        <li><a href="#Profesorado en Inglés">Profesorado en Inglés</a></li>
+        <b>Mas información: <a href="https://uncoma.edu.ar/ubicaciones/general-roca-rio-negro/">AQUI</a></b> <br> <br>
+        <BIG><b>Allen</b></BIG>
+        <li><a href="#Licenciatura en Enfermería">Licenciatura en Enfermería</a></li> 
+        <b>Más información: <a href="https://uncoma.edu.ar/ubicaciones/allen-rio-negro/">AQUI</a></b> <br> <br>
+        <BIG><b>Cinco Saltos</b></BIG>
+        <li><a href="#Ingeniería Agronómica">Ingeniería Agronómica</a></li>
+        <li><a href="#Tecnicatura Universitaria en Desarrollo Agropecuario para Pequeños y Medianos Productores">Tecnicatura Universitaria en Desarrollo Agropecuario para Pequeños y Medianos Productores</a></li>
+        <li><a href="#Licenciatura en Enfermería">Tecnicatura Universitaria en Espacios Verdes</a></li> 
+        <b>Más información: <a href="https://uncoma.edu.ar/ubicaciones/cinco-saltos-rio-negro/">AQUI</a></b><br><br>
+        <big><b>Choele Choel</b></big>
+        <li><a href="#Licenciatura en Enfermería">Licenciatura en Enfermería</a></li> 
+        <b>Más información: <a href="https://uncoma.edu.ar/ubicaciones/choele-choel-rio-negro/">AQUI</a></b><br><br>
+        <big><b>San Antonio Oeste</b></big>
+        <li><a href="#Licenciatura en Biología Marina">Licenciatura en Biología Marina</a></li>
+        <li><a href="#Tecnicatura en Producción Pesquera y Maricultura">Tecnicatura en Producción Pesquera y Maricultura</a></li>
+        <b>Mas información: <a href="https://uncoma.edu.ar/ubicaciones/san-antonio-oeste-rio-negro/">AQUI</a></b>
+      </ul>
+</ul>
+<ul class="columna columna-medio">
+  <ul>
+      <BIG><b>NEUQUEN</b></BIG>
+      <li><a href="#Ciclo General en Ciencias Económicas">Ciclo General en Ciencias Económicas</a></li>
+      <li><a href="#Contador Público Nacional"> Contador Público Nacional</a></li>
+      <li><a href="#Guía Universitario en Turismo"> Guía Universitario en Turismo</a></li>
+      <li><a href="#Ingeniería Civil"> Ingeniería Civil</a></li>
+      <li><a href="#Ingeniería Eléctrica">Ingeniería Eléctrica</a></li>
+      <li><a href="#Ingeniería Electrónica">Ingeniería Electrónica</a></li>
+      <li><a href="#Ingeniería en Petróleo">Ingeniería en Petróleo</a></li>
+      <li><a href="#Ingeniería Mecánica"> Ingeniería Mecánica</a></li>
+      <li><a href="#Ingeniería Química"> Ingeniería Química</a></li>
+      <li><a href="#Licenciatura en Administración">Licenciatura en Administración</a></li>
+      <li><a href="#Licenciatura en Ciencias de la Computación">Licenciatura en Ciencias de la Computación</a></li>
+      <li><a href="#Licenciatura en Ciencias Geológicas">Licenciatura en Ciencias Geológicas</a></li>
+      <li><a href="#Licenciatura en Economía">Licenciatura en Economía</a></li>
+      <li><a href="#Licenciatura en Filosofía">Licenciatura en Filosofía</a></li>
+      <li><a href="#Licenciatura en Geografía">Licenciatura en Geografía</a></li>
+      <li><a href="#Licenciatura en Higiene y Seguridad en el Trabajo">Licenciatura en Higiene y Seguridad en el Trabajo</a></li>
+      <li><a href="#Licenciatura en Historia">Licenciatura en Historia</a></li>
+      <li><a href="#Licenciatura en Letras">Licenciatura en Letras</a></li>
+      <li><a href="#Licenciatura en Matemática">Licenciatura en Matemática</a></li>
+      <li><a href="#Licenciatura en Saneamiento y Protección Ambiental">Licenciatura en Saneamiento y Protección Ambiental</a></li>
+      <li><a href="#Licenciatura en Servicio Social">Licenciatura en Servicio Social</a></li>
+      <li><a href="#Licenciatura en Sistemas de Información">Licenciatura en Sistemas de Información</a></li>
+      <li><a href="#Licenciatura en Turismo">Licenciatura en Turismo</a></li>
+      <li><a href="#Profesorado de Historia">Profesorado de Historia</a></li>
+      <li><a href="#Profesorado en Ciencias Económicas">Profesorado en Ciencias Económicas</a></li>
+      <li><a href="#Profesorado en Filosofía">Profesorado en Filosofía</a></li>
+      <li><a href="#Profesorado en Física">Profesorado en Física</a></li>
+      <li><a href="#Profesorado en Geografía">Profesorado en Geografía</a></li>
+      <li><a href="#Profesorado en Informática">Profesorado en Informática</a></li>
+      <li><a href="#Profesorado en Letras">Profesorado en Letras</a></li>
+      <li><a href="#Profesorado en Química">Profesorado en Química</a></li>
+      <li><a href="#Profesorado Universitario en Matemática">Profesorado Universitario en Matemática</a></li>
+      <li><a href="#Tecnicatura en Empresas de Servicios Turísticos">Tecnicatura en Empresas de Servicios Turísticos</a></li>
+      <li><a href="#Tecnicatura en Higiene y Seguridad en el Trabajo">Tecnicatura en Higiene y Seguridad en el Trabajo</a></li>
+      <li><a href="#Tecnicatura en Planificación Ambiental">Tecnicatura en Planificación Ambiental</a></li>
+      <li><a href="#Tecnicatura Universitaria en Administración de Sistemas y Software Libre">Tecnicatura Universitaria en Administración de Sistemas y Software Libre</a></li>
+      <li><a href="#Tecnicatura Universitaria en Desarrollo Web">Tecnicatura Universitaria en Desarrollo Web</a></li>
+      <b>Mas información: <a href="https://uncoma.edu.ar/ubicaciones/neuquen-capital-neuquen/">AQUI</a></b>
+    </ul>
+</ul>
+<ul class="columna columna-derecha">
+  <ul>
+    <big><b>San Martín de los Andes (Neuquén)</b></big>
+      <li><a href="#Guía Universitario en Turismo">Guía Universitario en Turismo</a></li>
+      <li><a href="#Ingeniería en Recursos Naturales">Ingeniería en Recursos Naturales</a></li>
+      <li><a href="#Tecnicatura Universitaria en Espacios Verdes">Tecnicatura Universitaria en Espacios Verdes</a></li>
+      <li><a href="#Tecnicatura Universitaria Forestal">Tecnicatura Universitaria Forestal</a></li>
+      <b>Mas información: <a href="https://uncoma.edu.ar/ubicaciones/san-martin-de-los-andes-neuquen/">AQUI</a></b> <br> <br>
+      <big><b>Zapala (Neuquén)</b></big>
+      <li><a href="#Ingeniería en Agrimensura">Ingeniería en Agrimensura</a></li>
+      <li><a href="#Licenciatura en Tecnología Minera">Licenciatura en Tecnología Minera</a></li>
+      <li><a href="#Tecnicatura en Plantas y Análisis de Menas">Tecnicatura en Plantas y Análisis de Menas</a></li>
+      <li><a href="#Tecnicatura Universitaria en Topografía">Tecnicatura Universitaria en Topografía</a></li>
+      <b>Mas información: <a href="https://uncoma.edu.ar/ubicaciones/zapala-neuquen/">AQUI</a></b> <br> <br>
+      <BIG><b>San Carlos de Bariloche</b></BIG>
+      <li><a href="#Ingeniería Civil">Ingeniería Civil</a></li>
+      <li><a href="#Ingeniería Eléctrica"> Ingeniería Eléctrica</a></li>
+      <li><a href="#Ingeniería Electrónica">Ingeniería Electrónica</a></li>
+      <li><a href="#Ingeniería en Petróleo"> Ingeniería en Petróleo</a></li>
+      <li><a href="#Ingeniería Eléctrica">Ingeniería Mecánica</a></li>
+      <li><a href="#Ingeniería Química">Ingeniería Química</a></li>
+      <li><a href="#Licenciatura en Ciencias Biológicas">Licenciatura en Ciencias Biológicas</a></li>
+      <li><a href="#Licenciatura en Enfermería">Licenciatura en Enfermería</a></li>
+      <li><a href="#Licenciatura en Historia">Licenciatura en Historia</a></li>
+      <li><a href="#Licenciatura en Matemática">Licenciatura en Matemática</a></li>
+      <li><a href="#Profesorado de Historia">Profesorado de Historia</a></li>
+      <li><a href="#Profesorado en Ciencias Biológicas">Profesorado en Ciencias Biológicas</a></li>
+      <li><a href="#Profesorado en Educación Física">Profesorado en Educación Física</a></li>
+      <li><a href="#Profesorado Universitario en Matemática">Profesorado Universitario en Matemática</a></li>
+      <li><a href="#Técnico Universitario en Acuicultura">Técnico Universitario en Acuicultura</a></li>
+      <b>Mas información: <a href="https://uncoma.edu.ar/ubicaciones/san-carlos-de-bariloche-rio-negro/">AQUI</a></b> <br> <br>
+    </ul>
+</ul>
+<ul class="columna columna-medio">
+<ul>
+    <big><b>Villa Regina</b></big>
+    <li><a href="#Licenciatura en Gerenciamiento Gastronómico">Licenciatura en Gerenciamiento Gastronómico</a></li>
+    <li><a href="#Licenciatura en Tecnología de Los Alimentos">Licenciatura en Tecnología de Los Alimentos</a></li>
+    <li><a href="#Tecnicatura Auxiliar Universitario en Nutrición">Tecnicatura Auxiliar Universitario en Nutrición</a></li>
+    <li><a href="#Tecnicatura en Control e Higiene de Los Alimentos">Tecnicatura en Control e Higiene de Los Alimentos</a></li>
+    <b>Mas información: <a href="https://uncoma.edu.ar/ubicaciones/villa-regina-rio-negro/">AQUI</a></b> <br> <br>
+    <BIG><b>Viedma</b></BIG>
+    <li><a href="#Licenciatura en Administración Pública">Licenciatura en Administración Pública</a></li>
+    <li><a href="#Licenciatura en Administración Pública">Licenciatura en Administración Pública</a></li>
+    <li><a href="#Licenciatura en Arte y Sociedad">Licenciatura en Arte y Sociedad</a></li>
+    <li><a href="#Licenciatura en Ciencia Política">Licenciatura en Ciencia Política</a></li>
+    <li><a href="#Licenciatura en Enfermería">Licenciatura en Enfermería</a></li>
+    <li><a href="#Licenciatura en Gestión de Empresas Agropecuarias">Licenciatura en Gestión de Empresas Agropecuarias</a></li>
+    <li><a href="#Licenciatura en Gestión de Recursos Humanos (Ciclo de Licenciatura)">Licenciatura en Gestión de Recursos Humanos (Ciclo de Licenciatura)</a></li>
+    <li><a href="#Licenciatura en Psicopedagogía">Licenciatura en Psicopedagogía</a></li>
+    <li><a href="#Profesorado en Ciencias Agropecuarias">Profesorado en Ciencias Agropecuarias</a></li>
+    <li><a href="#Profesorado en Lengua y Comunicación Oral y Escrita">Profesorado en Lengua y Comunicación Oral y Escrita</a></li>
+    <li><a href="#Profesorado en Psicopedagogía">Profesorado en Psicopedagogía</a></li>
+    <li><a href="#Profesorado Universitario de Ciencia Política">Profesorado Universitario de Ciencia Política</a></li>
+    <li><a href="#Tecnicatura Universitaria en Administración de Sistemas y Software Libre">Tecnicatura Universitaria en Administración de Sistemas y Software Libre</a></li>
+    <li><a href="#Tecnicatura Universitaria en Administración Pública">Tecnicatura Universitaria en Administración Pública</a></li>
+    <li><a href="#Tecnicatura Universitaria en Desarrollo Web">Tecnicatura Universitaria en Desarrollo Web</a></li>
+    <li><a href="#Tecnicatura Universitaria en Gestión Cultural">Tecnicatura Universitaria en Gestión Cultural</a></li>
+    <b>Mas información: <a href="https://uncoma.edu.ar/ubicaciones/viedma-rio-negro/">AQUI</a></b> <br> <br>
+ <br> <br>
+  </ul>
+</ul>
+</div>
+
+<div id="contenedor-3">
+    <a name="Licenciatura en Ciencias de la Educación"></a>
+    <h2>Licenciatura en Ciencias de la Educación</h2> <br>
+    <p><big><b>TÍTULO:</b></big>  LICENCIADO/A EN CIENCIAS DE LA EDUCACIÓN <br> <br>
+       <big><b> DURACIÓN:</b></big> 5 AÑOS <br> <br>
+       El/La licenciado/a en Ciencias de la Educación está habilitado/a para desempeñarse en la investigación educativa. Podrá realizar diagnósticos del sistema educativo en sus diferentes niveles y modalidades en organismos e instituciones públicas y privadas, desarrollar nuevas metodologías, técnicas y recursos. Asimismo está capacitado/a para orientar sobre contenidos y actividades en las disciplinas particulares de las Ciencias de la Educación y sobre los diseños de Investigación educativas, teóricas y aplicadas.
+ <br> <br> 
+ <big><b>MATERIAS</b></big> <br> <br>
+ 1 – INTRODUCCIÓN A LA REALIDAD EDUCATIVA <br>
+ 2 – FUNDAMENTOS PSICOBIOLÓGICOS DE LA EDUCACIÓN <br>
+ 3 – PROBLEMAS FILOSÓFICOS CONTEMPORÁNEOS <br>
+ 4 – PSICOLOGÍA DEL NIÑO <br>
+ 5 – INTRODUCCIÓN AL ESTUDIO DE LAS INSTITUCIONES EDUCATIVAS <br>
+ 6 – HISTORIA DE LA EDUCACIÓN ANTIGUA Y MEDIEVAL <br>
+ 7 – PSICOLOGÍA DEL ADOLESCENTE Y DEL ADULTO <br>
+ 8 – PEDAGOGÍA <br>
+ 9 – ANTROPOLOGÍA SOCIAL Y DE LA EDUCACIÓN <br>
+ 10 – HISTORIA DE LA EDUCACIÓN MODERNA Y CONTEMPORÁNEA <br>
+ 11 – METODOLOGÍA DE LA INVESTIGACIÓN SOCIAL Y EDUCATIVA <br>
+ 12 – DIDÁCTICA GENERAL <br>
+ 13 – ORIENTACIONES ACTUALES DE LA PSICOLOGÍA DEL APRENDIZAJE <br>
+ 14 – PSICOLOGÍA SOCIAL <br>
+ 15 – NVESTIGACIÓN EDUCATIVA I <br>
+ 16 – FILOSOFÍA DE LA EDUCACIÓN <br>
+ 17 – SOCIOLOGÍA DE LA EDUCACIÓN <br>
+ 18 – POLÍTICA Y LEGISLACIÓN DE LA EDUCACIÓN <br>
+ 19 – HISTORIA DE LA EDUCACIÓN ARGENTINA <br>
+ 20 – PLANEAMIENTO Y ADMINISTRACIÓN DE LA EDUCACIÓN <br>
+ 21 – DIDÁCTICA DE NIVEL PRE-PRIMARIO Y PRIMARIO <br>
+ 22 – EPISTEMOLOGÍA <br>
+ 23 – SEMINARIO O TALLER ELECTIVO (LO QUE CORRESPONDA S/CAMPO TEMÁTICO) <br>
+ 24 – RESIDENCIA EN PLANEAMIENTO Y ADMINISTRACIÓN DE LA EDUCACIÓN <br>
+ 25 – DIDÁCTICA DEL NIVEL SUPERIOR <br>
+ 26 – EVALUACIÓN EDUCACIONAL <br>
+ 27 – INVESTIGACIÓN EDUCATIVA II <br>
+ 28 – DIDÁCTICA DEL NIVEL MEDIO <br>
+ 29 – SEMINARIO O TALLER ELECTIVO (LO QUE CORRESPONDAS/CAMPO TEMÁTICO) <br>
+ 30 – SEMINARIO O TALLER ELECTIVO (LO QUE CORRESPONDAS/CAMPO TEMÁTICO) <br>
+ 31 – TEORÍAS CONTEMPORÁNEAS DE LA EDUCACIÓN <br>
+ 32 – RESIDENCIA EN DOCENCIA (PRÁCTICA EN EL NIVEL SUPERIOR) <br>
+ 33 – IDIOMA EXTRANJERO <br>
+ 34 – TESIS <br>
+ 35 – EXAMEN DE ORTOGRAFÍA <br> <br>
+<big><b> Requisitos académicos para obtener el título:</b></big> aprobación de 29 materias, 3 seminarios, 2 residencias, 1 tesis y 1 examen de Ortografía — <br> <br>
+ <big><b>Plan de estudio:</b></big> <a href="https://uncoma.edu.ar/wp-content/uploads/2022/09/ord_0402_19961.pdf">Aqui</a> <br>
+ <big><b>BECAS</b></big> <br>
+ Para conocer el Programa de Becas de la UNCO ingresar <a href="https://becas.uncoma.edu.ar/">AQUI,</a>
+</a> <br> <br>
+
+<big><b>INSCRIPCIÓN 2025</b></big> <br> <br>
+Para inscribirte, el primer período será del 1° de noviembre al 20 de diciembre de 2024, mientras que el segundo será del 1° d
+ 14 – TRABAJO FINAL<br> <br>
+ <big><b>Condiciones de ingreso:</b></big> <br> <br> el presente ciclo de complementación curricular de la licenciatura en nutrición está dirigido exclusivamente aquellos estudiantes que acrediten el título de técnico auxiliar universitario en nutrición, otorgado por la Facultad de Ciencia y Tecnología de los Alimentos de la Universidad Nacional del Comahue. <br>
+
+ Se cursan los  primeros (tres años), en la Facultad de Ciencia y Tecnología de los Alimentos (Villa Regina), el resto (2 años)  se cursa Facultad de Ciencias Médicas. <br>
+ 
+ Los estudiantes de otras universidades que soliciten su ingreso a la carrera de licenciatura en nutrición de la Facultad de Ciencias Médicas de la Universidad Nacional del Comahue deberán acreditar previamente el reconocimiento de las equivalencias correspondientes a la carrera de técnico auxiliar universitario en nutrición extendido por la facultad de ciencia y tecnología de los alimentos — <br> <br>
+ 
+ 
+ <big><b>Plan de estudio:</b></big> <a href="https://uncoma.edu.ar/wp-content/uploads/2022/09/ord_1031_20171.pdf">Aqui</a> <br>
+ <br>
+ <big><b>BECAS</b></big> <br>
+ Para conocer el Programa de Becas de la UNCO ingresar <a href="https://becas.uncoma.edu.ar/">AQUI</a>
+ <br> <br>
+<big><b>INSCRIPCIÓN 2025</b></big> <br> <br>
+Para inscribirte, el primer período será del 1° de noviembre al 20 de diciembre de 2024, mientras que el segundo será del 1° de febrero al 28 de febrero de 2025.<br> <br> 
+<a href="https://ingreso2025.uncoma.edu.ar/">Preinscribirme ahora</a> <br> <br>
+ <big><b><a href="#inicio">Ir al inicio</a></b></big>
+    </p>
+</div>
+<div id="contenedor-3">
+  <a name="Medicina"></a>
+  <h2>Medicina</h2> <br>
+  <p><big><b>TÍTULO:</b></big>MÉDICO/A <br> <br>
+     <big><b> DURACIÓN:</b></big> 7 AÑOS <br> <br>
+     De acuerdo a las normativas vigentes, el título de médico habilita para anunciar, prescribir, indicar o aplicar cualquier procedimiento directo o indirecto de uso diagnóstico y/o tratamiento de las enfermedades, o a la recuperación, conservación y preservación de la salud de las personas.
+<br> <br> 
+<big><b>MATERIAS</b></big> <br> <br>
+1 – INTRODUCCIÓN A LA QUÍMICA DE LAS SISTEMAS BIOLÓGICOS <br>
+2 – INTRODUCCIÓN A LA BIOFÍSICA <br>
+3 – INTRODUCCIÓN A LA BIOLOGÍA HUMANA <br>
+4 – MEDICINA Y SOCIEDAD <br>
+5 – INTRODUCCIÓN A LOS ESTUDIOS DE LA MEDICINA <br>
+6 – ANATOMÍA E IMÁGENES NORMALES <br>
+7 – HISTOLOGÍA, EMBRIOLOGÍA, BIOLOGÍA MOLECULAR Y GENÉTICA <br>
+8 – BIOQUÍMICA <br>
+9 – ATENCIÓN PRIMARIA PARA LA SALUD I <br>
+10 – FISIOLOGÍA HUMANA <br>
+11 – TALLER A: INTEGRACIÓN DE FUNCIÓN Y ESTRUCTURA NORMAL <br>
+12 – PATOLOGÍA <br>
+13 – RELACIÓN MÉDICO-PACIENTE <br>
+14 – MICROBIOLOGÍA Y PARASITOLOGÍA <br>
+15 – BIOÉTICA <br>
+16 – ATENCIÓN PRIMARIA PARA LA SALUD II <br>
+17 – TALLER B: FISIOPATOLOGÍA <br>
+18 – INGLÉS <br>
+19 – MEDICINA I <br>
+20 – FARMACOLOGÍA <br>
+21 – FARMACOLOGÍA <br>
+22 – TALLER C: INTEGRACIÓN DE ESTRUCTURA Y FUNCIÓN PATOLÓGICA <br>
+23 – MEDICINA Y CIRUGÍA <br>
+24 – PSIQUIATRÍA <br>
+25 – MEDICINA LEGAL <br>
+26 – GINECOLOGÍA Y OBSTETRICIA <br>
+27 – MEDICINA INFANTIL <br>
+28 – PRÁCTICA FINAL OBLIGATORIA (ROTACIONES OBLIGATORIAS Y OPTATIVAS) <br> <br>
+<big><b>OPTATIVAS</b></big> <br> <br>
+MEDICINA INFANTIL <br>
+MEDICINA Y CIRUGÍA <br>
+ROTACIÓN OPTATIVA II <br>
+ROTACIÓN OPTATIVA I <br>
+GINECOLOGÍA Y OBSTETRICIA <br>
+MEDICINA GENERAL/RURAL<br> <br>
+<big><b> Requisitos académicos para obtener el título:</b></big> aprobación de 30 materias y 3 talleres. Para cursar el Ciclo Clí­nico, el alumno deberá haber acreditado todas las materias del Ciclo Biomédico y el 50% de los créditos de los seminarios electivos. Además, el alumno deberá haber cumplido el requisito obligatorio aprobar un examen de inglés. <br> <br>
+<big><b>Plan de estudio:</b></big> <a href="https://uncoma.edu.ar/wp-content/uploads/2022/09/ord_834_1997-11.pdf">Aqui</a> <br>
+<big><b>BECAS</b></big> <br>
+Para conocer el Programa de Becas de la UNCO ingresar <a href="https://becas.uncoma.edu.ar/">AQUI,</a>
+</a> <br> <br>
+
+<big><b>INSCRIPCIÓN 2025</b></big> <br> <br>
+Para inscribirte, el primer período será del 1° de noviembre al 20 de diciembre de 2024, mientras que el segundo será del 1° de febrero al 28 de febrero de 2025. <br> <br> 
+<a href="https://ingreso2025.uncoma.edu.ar/">Preinscribirme ahora</a> <br> <br>
+<big><b><a href="#inicio">Ir al inicio</a></b></big>
+</p>
+</div>
+<div id="contenedor-3">
+  <a name="Profesorado en Ciencias de la Educación"></a>
+  <h2>Profesorado en Ciencias de la Educación</h2> <br>
+  <p><big><b>TÍTULO:</b></big> PROFESOR/A EN CIENCIAS DE LA EDUCACIÓN. <br> <br>
+     <big><b> DURACIÓN:</b></big> 5 AÑOS <br> <br>
+<big><b>PERFIL:</b></big> <br> <br>
+Características particulares: El/la Profesor/a en Ciencias de la Educación tiene una sólida formación científica, metodológica e instrumental que le permiten ejercer su rol docente de una manera comprometida, crítica y efic Puede analizar con criterio propio las distintas situaciones que se generen en las prácticas educativas y resolver los problemas que de ellas se deriven. <br>
+
+Posee los conocimientos sobre la realidad social, histórica, cultural e institucional, así como los de las disciplinas biológicas, psicológicas, pedagógicas y didácticas indispensables para desarrollar su labor profesional, ya sea individualmente o participando en equipos. <br>
+
+Posee formación epistemológica y de la metodología de la investigación que le permiten abordar científicamente su objeto de estudio. <br>
+
+Es capaz de elaborar, dirigir, ejecutar y evaluar planes, programas y proyectos de capacitación y perfeccionamiento docente para distintas modalidades y niveles del sistema educativo y de la educación no formal y de realizar el asesoramiento correspondiente cuando l le fuera requerido. <br>
+
+Tiene la competencia necesaria para realizar investigaciones educativas en distintos ámbitos y realidades. <br>
+
+Está en condiciones de planificar, organizar, dirigir y evaluar organismos, instituciones, unidades académicas y servicios educativos de diversa naturaleza, jurisdicción y modalidad. <br> <br>
+<big><b>Para información de la carrera:</b></big> <a href="trayectoriasacademicasfacep@gmail.com">Aqui</a> <br> <br>
+<big><b>BECAS</b></big> <br>
+Para conocer el Programa de Becas de la UNCO ingresar <a href="https://becas.uncoma.edu.ar/">AQUI,</a>
+</a> <br> <br>
+
+<big><b>INSCRIPCIÓN 2025</b></big> <br> <br>
+Para inscribirte, el primer período será del 1° de noviembre al 20 de diciembre de 2024, mientras que el segundo será del 1° de febrero al 28 de febrero de 2025. <br> <br> 
+<a href="https://ingreso2025.uncoma.edu.ar/">Preinscribirme ahora</a> <br> <br>
+<big><b><a href="#inicio">Ir al inicio</a></b></big>
+</p>
+</div>
+<div id="contenedor-3">
+  <a name="Profesorado en Nivel Inicial"></a>
+  <h2>Profesorado en Nivel Inicial</h2> <br>
+  <p><big><b>TÍTULO:</b></big> PROFESOR EN NIVEL INICIAL <br> <br>
+     <big><b> DURACIÓN:</b></big> 3 AÑOS <br> <br>
+     Características particulares: Esta carrera, considerada de Pregrado ya que posee una duración de tres (3) años, responde a la necesidad institucional de actualizar la currícula en relación a las exigencias académicas y de formación profesional de la realidad educativa. El hecho de que el Nivel Inicial sea considerado obligatorio en el Sistema Educativo de nuestro país, constituye un motivo fundamental para la elaboración de una propuesta curricular innovadora. <br>
+
+     Esta carrera se caracteriza, entre otras particularidades, que brinda la formación necesaria para diseñar y planificar actividades recreativas, educativas y culturales para niños de 45 días a 6 años de edad. 
+<br> <br> 
+<big><b>Perfil del/la Egresado/a</b></big> <br> <br> Comprender la realidad educativa en sus múltiples manifestaciones, garantizando de este modo su efectiva participación tanto en ámbitos institucionales como socio-comunitarios. <br>
+Fundamentar teóricamente sus prácticas pedagógicas enmarcadas en diferentes concepciones filosóficas y sociales del conocimiento de la función de la escuela y de la educación. <br>
+Analizar las políticas educativas vigentes y realizar propuestas para su concreción y/o modificación. <br>
+Conocer contenidos relevantes propios de los campos del saber que configuran su especialidad <br>
+Asumir actitudes de compromiso con un estilo de vida democrático en un contexto socio-histórico y cultural <br>
+Planificar, conducir y evaluar programas de educación inicial <br>
+Diseñar y planificar actividades recreativas, educativas y culturales para niños de 45 días a 6 años de edad. <br>
+Elaborar y participar en proyectos de investigación e innovación educativa referidos a problemas del nivel inicial. <br>
+Participar en la elaboración del proyecto institucional en los ámbitos en que se desempeñe. <br>
+Promover y facilitar acciones de organización de la comunidad para que participe en las decisiones educativas. <br>
+Diseñar, conducir y evaluar estrategias de enseñanza pertinentes al nivel. <br>
+Seleccionar y usar recursos y tecnologías apropiadas para desarrollar la enseñanza <br>
+Formular proyectos de acción e innovación a nivel de aula e institución. <br>
+Interpretar los instrumentos jurídicos legales referidos a la profesión y las normas y pautas escolares, promoviendo acciones para actualizarlos o cambiarlos. <br>
+Participar en actividades de elaboración y diseño curricular del nivel. <br>
+Continuar su formación académica como acompañamiento de su desempeño profesional. <br> <br>
+<big><b>MATERIAS</b></big> <br> <br>
+1 – TALLER DE LA PROBLEMATICA DE LA REALIDAD EDUCATIVA <br>
+2 – TALLER DE EXPRESION NO VERBAL <br>
+3 – FILOSOFIA <br>
+4 – HISTORIA DE LA EDUCACION GENERAL Y ARGENTINA <br>
+5 – TALLER DE LECTURA DE LA PRACTICA DOCENTE I <br>
+6 – PEDAGOGIA <br>
+7 – POLITICA EDUCACIONAL <br>
+8 – ANTROPOLOGIA SOCIAL Y DE LA EDUCACION <br>
+9 – FUNDAMENTOS BIOLOGICOS DEL APRENDIZAJE <br>
+10 – DIDACTICA GENERAL <br>
+11 – TEORIAS PSICOLOGICAS <br>
+12 – MATEMATICA Y SU DIDACTICA <br>
+13 – TALLER DE LECTURA DE LA PRACTICA DOCENTE II <br>
+14 – PSICOLOGIA DEL NIÑO <br>
+15 – LENGUA Y LITERATURA Y SU DIDACTICA <br>
+16 – CIENCIAS SOCIALES Y SU DIDACTICA <br>
+17 – CIENCIAS NATURALES Y SU DIDACTICA <br>
+18 – ACTIVIDADES ESTETICO EXPRESIVAS Y SU DIDACTICA (MUSICA) <br>
+19 – SEMINARIO DE EDUCACION INFANTIL <br>
+20 – SEMINARIO DE TECNOLOGIA <br>
+21 – TALLER DE LECTURA DE LA PRACTICA DOCENTE III <br>
+22 – SEMINARIO DE PSICOLOGIA DEL APRENDIZAJE <br>
+23 – RESIDENCIA EN EL NIVEL INICIAL <br>
+24 – IDIOMA EXTRANJERO/ITALIANO <br>
+24 – IDIOMA EXTRANJERO <br>
+24 – IDIOMA EXTRANJERO/INGLESb <br>
+24 – IDIOMA EXTRANJERO/FRANCES <br>
+25 – ORTOGRAFIA<br> <br>
+<big><b> Requisitos académicos para obtener el título:</b></big> aprobar 14 materias, 5 talleres, 3 seminarios, 1 examen de idioma extranjero, 1 examen de Ortografí­a y 1 residencia. — <br> <br>
+<big><b>Plan de estudio:</b></big> <a href="https://uncoma.edu.ar/wp-content/uploads/2022/09/ord_0868_20011.pdf">Aqui</a> <br>
+<big><b>BECAS</b></big> <br>
+Para conocer el Programa de Becas de la UNCO ingresar <a href="https://becas.uncoma.edu.ar/">AQUI,</a>
+</a> <br> <br>
+
+<big><b>INSCRIPCIÓN 2025</b></big> <br> <br>
+Para inscribirte, el primer período será del 1° de noviembre al 20 de diciembre de 2024, mientras que el segundo será del 1° de febrero al 28 de febrero de 2025. <br> <br> 
+<a href="https://ingreso2025.uncoma.edu.ar/">Preinscribirme ahora</a> <br> <br>
+<big><b><a href="#inicio">Ir al inicio</a></b></big>
+</p>
+</div>
+<div id="contenedor-3">
+  <a name="Profesorado Universitario de Enseñanza en Educación Primaria"></a>
+  <h2>Profesorado Universitario de Enseñanza en Educación Primaria</h2> <br>
+  <p><big><b>TÍTULO:</b></big>PROFESORADO UNIVERSITARIO DE ENSENANZA EN EDUCACION PRIMARIA<br> <br>
+     <big><b> DURACIÓN:</b></big> 4 AÑOS <br> <br>
+     Características particulares: Esta Carrera, a través de su plan de estudios, se estructura en torno a tres (3) ejes de la formación conceptuales, que organizan la disposición de los Campos de la Formación Docente. Ellos son: <br>
+     Eje 1: Tensiones entre Experiencia y Escuela <br>
+     Eje 2: Tensiones entre Epistemologías de aprendizajes específicos – Prácticas pedagógicas y Trabajo docente.  <br>
+     Eje 3: Tensiones entre Reconstrucción crítica de la experiencia docente y Prácticas Docentes.
+<br> <br> 
+<big><b>Perfil del/la Egresado/a:</b></big> <br> <br> Ejercer la docencia en Instituciones Educativas de Nivel Primario desde perspectivas que atiendan a la complejidad de los contextos socio-histórico-culturales en las que se desarrollan. <br>
+Gestionar y producir procesos colaborativos de producción de propuestas didácticas innovadoras que atiendan a las necesidades de las comunidades en que están insertas las Instituciones Educativas de Nivel Primario. <br>
+Diseñar, implementar y evaluar estrategias metodológicas de carácter político, epistemológico, pedagógico y ético para la promoción de aprendizajes significativos en los y las estudiantes. <br>
+Producir dispositivos pedagógicos de evaluación y acreditación de la enseñanza en el orden áulico e institucional para la promoción de aprendizajes y mejora de la enseñanza. <br>
+Utilizar tecnologías en la enseñanza, para la complejización de los procesos cognitivos de los y las estudiantes, en el contexto contemporáneo de ubicuidad en el uso de herramientas tecnológicas. <br>
+Producir materiales didácticos en/de diferentes formatos para la realización de todas las tareas de enseñanza en Instituciones Educativas de Nivel Primario. <br>
+Participar en equipos interdisciplinarios e interinstitucionales para el diseño y la evaluación de políticas y propuestas de inclusión educativa en perspectiva intercultural ampliada. <br>
+Investigar procesos educativos en y para instituciones de Educación de Nivel Primario para complejizar prácticas de enseñanza. <br> <br>
+<big><b>MATERIAS</b></big> <br> <br>
+1 – TALLER PRACTICAS DOCENTES E INVESTIGACION EDUCATIVA: BIOGRAFIA DE LAS PRACTICAS DOCENTES <br>
+2 – TALLER ABORDAJES INTERDISCIPLINARIOS DE LA REALIDAD: LA EDUCATIVA DEL NIVEL PRIMARIO <br>
+3 – ASIGNATURA FORMACION DE LECTORES: LITERATURA Y LECTURA ACADEMICO <br>
+4 – TALLER EXPRESION NO VERBAL <br>
+5 – ASIGNATURA FILOSOFIA <br>
+6 – TALLER ENTRE A PRACTICAS DOCENTES E INVESTIGACION EDUCATIVA: LA ESCUELA <br>
+7 – SEMINARIO SEXUALIDADES. CUERPOS Y PROBLEMATICAS DE GENERO EN EDUCACION <br>
+8 – ASIGNATURA FUNDAMENTOS BIOLOGICOS DEL APRENDIZAJE <br>
+9 – ASIGNATURA PEDAGOGIA <br>
+10 – SEMINARIO COMUNICACION – IMAGEN Y PRODUCCION DE SUBJETIVIDAD <br>
+11 – TALLER PRACTICAS DOCENTES E INVESTIGACION EDUCATIVA: EL AULA Y LA ENSENANZA <br>
+12 – ASIGNATURA PSICOLOGIA GENERAL <br>
+13 – ASIGNATURA HISTORIA DE LA EDUCACION <br>
+14 – ASIGNATURA DIDACTICA GENERAL <br>
+15 – ASIGNATURA DIDACTICA DE LA LITERATURA PARA NIÑOS, NIÑAS Y JÓVENES <br>
+16 – ASIGNATURA PSICOLOGIA DEL DESARROLLO <br>
+17 – CIENCIAS SOCIALES Y SU DIDACTICA I <br>
+18 – ASIGNATURA CIENCIAS NATURALES Y SU DIDACTICA I <br>
+19 – ASIGNATURA POLITICA DE LA EDUCACION <br>
+20 – PROYECTO PRACTICAS DOCENTES: MICRO-EXPERIENCIA DIDACTICA: CIENCIAS SOCIALES – CIENCIAS NATURALES <br>
+21 – MATEMATICA Y SU DIDACTICA I <br>
+22 – ASIGNATURA LENGUA Y SU DIDACTICA I <br>
+23 – ASIGNATURA CIENCIAS SOCIALES Y SU DIDACTICA II <br>
+24 – ASIGNATURA CIENCIAS NATURALES Y SU DIDACTICA II <br>
+25 – PRACTICAS DOCENTES: MICRO-EXPERIENCIA DIDACTICA: PROYECTO TRABAJO LENGUA -MATEMATICA <br>
+26 – ASIGNATURA ANTROPOLOGIA SOCIAL DE LA EDUCACION <br>
+27 – ASIGNATURA MATEMATICA Y SU DIDACTICA II <br>
+28 – TALLER LENGUA Y SU DIDACTICA : ENSENANZA DE LA LENGUA I INFANTIL <br>
+29 – TALLER LENGUA Y SU DIDACTICA : ENSENANZA DE LA LENGUA I INFANTIL <br>
+30 – ASIGNATURA PSICOLOGIA EDUCACIONAL <br>
+31 – SEMINARIO TECNOLOGIAS EN LA ENSEÑANZA (A DISTANCIA) <br>
+32 – TALLER PRACTICAS DOCENTES: RESIDENCIA <br>
+33 – PEDAGOGIA ESPECIAL <br>
+34 – ASIGNATURA TALLER PRACTICAS DOCENTES: REFLEXION SOBRE LA PRACTICA <br>
+35 – TALLER EXPRESION NO VERBAL II <br>
+36 – ASIGNATURA DEBATES CONTEMPORANEOS DEL NIVEL PRIMARIO – I <br>
+37 – ASIGNATURA DEBATES CONTEMPORANEOS DEL NIVEL PRIMARIO II <br>
+38 – ASIGNATURA MODALIDADES EDUCATIVAS EN EL NIVEL PRIMARIO<br> <br>
+<big>
+  <b>— Requisito UNCo:</b>
+</big> Idioma Extranjero sujeto a la reglamentación en vigencia: Ord.097/90 — <br> <br>
+<big><b>Plan de estudio:</b></big> <a href="https://uncoma.edu.ar/wp-content/uploads/2022/09/ord_0608_20161.pdf">AQUI</a> <br> <br>
+<big><b>BECAS</b></big> <br>
+Para conocer el Programa de Becas de la UNCO ingresar <a href="https://becas.uncoma.edu.ar/">AQUI,</a>
+ <br> <br>
+
+<big><b>INSCRIPCIÓN 2025</b></big> <br> <br>
+Para inscribirte, el primer período será del 1° de noviembre al 20 de diciembre de 2024, mientras que el segundo será del 1° de febrero al 28 de febrero de 2025. <br> <br> 
+<a href="https://ingreso2025.uncoma.edu.ar/">Preinscribirme ahora</a> <br> <br>
+<big><b><a href="#inicio">Ir al inicio</a></b></big>
+</p>
+</div>
+<div id="contenedor-3">
+  <a name="Psicología"></a>
+  <h2>Psicología</h2> <br>
+  <p><big><b>TÍTULO:</b></big> PSICÓLOGO/A <br> <br>
+     <big><b> DURACIÓN:</b></big> 5 AÑOS <br> <br>
+     Características particulares: El perfil del egresado al que propende el presente Plan de Estudios es el de- formar un/a Psicólogo/a con una formación académico-profesional generalista de sólida base científica teórica, metodológica y técnica, pluralista, multidisciplinaria y actualizada, para desempeñarse con idoneidad y compromiso ético-deontológico en diversos campos de aplicación profesional. Dicha formación recogerá lo mejor de una enseñanza humanista, científica y profesionalmente afiliada a la comunidad nacional e internacional de los psicólogos, tendiente a la actualización permanente, fortaleciendo una identidad profesional diferenciada tanto del modelo médico como del filosófico <br>
+
+     El diseño del Plan de Estudios contempla dos ejes para cada ciclo.  El Ciclo Básico incluye el Eje de Formación Básica y el Eje de Formación Complementaria. El Ciclo Superior contiene el Eje de Formación profesional general y el Eje de Formación en intervenciones profesionales. <br>
+     
+     El título de Psicóloga/o habilita para una práctica profesional que, de acuerdo con las incumbencias reconocidas en la normativa vigente, contempla distintos campos de aplicación de la Psicología. (Ministerio de Educación de la República Argentina sobre Actividades profesionales reservadas a los títulos de Licenciado en Psicología y Psicólogo) 
+<br> <br> 
+<big><b>Perfil del/la Egresado/a</b></big> <br> <br> Prescribir y realizar intervenciones de orientación, asesoramiento e implementación de técnicas especificas psicológicas tendientes a la promoción, recuperación y rehabilitación de la salud, a la prevención de sus alteraciones y la provisión de los cuidados paliativos. <br>
+Prescribir y realizar acciones de evaluación, diagnóstico, pronóstico, tratamiento, seguimiento, recuperación y rehabilitación psicológica en los abordajes: individual, grupal, de pareja, familia, instituciones, organizaciones y en lo social-comunitario <br>
+Prescribir y realizar acciones de evaluación psicológica, psicodiagnóstico, pronóstico y seguimiento en los abordajes: individual, de pareja y familia. <br>
+Prescribir y efectuar psicoterapias individuales, familiares, grupales y de pareja. <br>
+Realizar indicaciones psicoterapéuticas de internación y externación de personas por causas psicológicas. <br>
+Indicar licencias y/o justificar ausencias por causas psicológicas. <br>
+Desarrollar y validar métodos, técnicas e instrumentos de exploración, evaluación y estrategias de intervención psicológicas. <br>
+Diagnosticar, realizar peritajes, asesorar y asistir psicológicamente, en el campo jurídico-forense, a personas en conflicto con la ley y víctimas de delitos, a sus respectivos familiares, e intervenir en los aspectos psicológicos de las problemáticas de minoridad. <br> 
+Diagnosticar, evaluar, asistir, orientar y asesorar en todo lo concerniente a los aspectos estrictamente psicológicos en el área educacional. <br>
+Prescribir y realizar orientación vocacional y ocupacional, en aquellos aspectos estrictamente psicológicos. <br>
+Elaborar perfiles psicológicos a partir del análisis de puestos y tareas e intervenir en procesos de formación, capacitación y desarrollo del personal, en el marco de los ciclos de selección, inserción, reasignación, reinserción y desvinculación laboral. Asesoran en el ámbito de higiene, seguridad y psicopatología del trabajo. <br>
+Diagnosticar, evaluar, asistir, orientar y asesorar en lo concerniente a los aspectos psicológicos en el área social- comunitario para la promoción y la prevención de la salud y la calidad de vida de grupos y comunidades y la intervención en situaciones críticas de emergencias y catástrofes. <br>
+Participar desde la perspectiva psicológica en el diseño, la dirección, la coordinación y la evaluación de políticas, instituciones y programas de salud, educación, trabajo, justicia, derechos humanos, desarrollo social, comunicación social y de áreas emergente de la Psicología. <br>
+Dirigir, participar y auditar servicios e instituciones públicas y privadas, en los que se realicen prestaciones de salud y de salud mental. <br>
+Asesorar en la elaboración de legislación que involucren conocimientos y prácticas de las distintas áreas de la Psicología. <br> <br>
+Realizar estudios e investigaciones en las diferentes áreas del quehacer disciplinar, a saber: <br> <br>
+Los procesos psicológicos y psicopatológicos a lo largo del ciclo vital. <br>
+Los procesos psicológicos involucrados en el desarrollo y funcionamiento de los grupos, instituciones, organizaciones y la comunidad. <br>
+La construcción y desarrollo de métodos, técnicas e instrumentos de intervención psicológica. <br>
+Planificar, dirigir, organizar y supervisar programas de formación y evaluación académica y profesional en los que se aborden actividades reservadas al título<br> <br>
+<big><b>MATERIAS</b></big> <br> <br>
+<big><b>PRIMER AÑO – PRIMER CUATRIMESTRE</b></big> <br>
+
+PSICOLOGÍA GENERAL <br>
+
+FILOSOFÍA <br>
+
+BIOLOGÍA HUMANA <br>
+
+ANTROPOLOGÍA CULTURAL <br>
+
+<big><b>PRIMER AÑO – SEGUNDO CUATRIMESTRE</b></big> <br>
+
+HISTORIA DE LA CULTURA <br>
+
+PSICOLOGÍA GENÉTICA <br>
+
+SOCIOLOGÍA <br>
+
+TEORÍA PSICOANALÍTICA I <br>
+
+<big><b>SEGUNDO AÑO – PRIMER CUATRIMESTRE</b></big> <br>
+
+HISTORIA DE LA PSICOLOGÍA <br>
+
+TEORÍA PSICOANALÍTICA II <br>
+
+PSICOLOGÍA SOCIAL I <br>
+
+METODOLOGÍA DE LA INVESTIGACIÓN EN PSICOLOGÍA I <br>
+
+<big><b>SEGUNDO AÑO – SEGUNDO CUATRIMESTRE</b></big> <br>
+
+PSICOLOGÍA SOCIAL II <br>
+
+NEUROFISIOLOGÍA <br>
+
+PSICOLOGÍA COGNITIVA I <br>
+
+METODOLOGÍA DE LA INVESTIGACIÓN EN PSICOLOGÍA II <br>
+
+<big><b>TERCER AÑO – PRIMER CUATRIMESTRE </b></big> <br>
+
+PSICOLOGÍA DEL DESARROLLO I <br>
+
+TEORÍA PSICOANALÍTICA III <br>
+
+PSICOLOGÍA COGNITIVA II <br>
+
+PSICOFISIOPATOLOGÍA <br>
+
+<big><b>TERCER AÑO – SEGUNDO CUATRIMESTRE</b></big> <br>
+
+PSICOLOGÍA DEL APRENDIZAJE <br>
+
+PSICOLOGÍA DEL DESARROLLO II <br>
+
+PSICOPATOLOGÍA I <br>
+
+EVALUACIÓN PSICOLÓGICA I <br>
+
+<big><b>CUARTO AÑO – PRIMER CUATRIMESTRE</b></big> <br>
+
+SALUD PÚBLICA Y COMUNITARIA <br>
+
+EVALUACIÓN PSICOLÓGICA II <br>
+
+PSICOPATOLOGÍA II <br>
+
+PSICOLOGÍA EDUCACIONAL <br>
+
+<big><b>CUARTO AÑO – SEGUNDO CUATRIMESTRE</b></big> <br>
+ 
+PSICOLOGÍA CLÍNICA I (ADULTOS) <br>
+
+PSICOLOGÍA LABORAL <br>
+
+PSICOLOGÍA JURÍDICA <br>
+
+PROBLEMAS EPISTEMOLÓGICOS DE LA PSICOLOGÍA <br>
+ 
+<big><b>QUINTO AÑO – PRIMER CUATRIMESTRE</b></big> <br>
+
+NEUROPSICOLOGÍA <br>
+
+ÉTICA, DEONTOLOGÍA Y PRÁCTICA PROFESIONAL <br>
+
+PSICOTERAPIA I <br>
+
+PRÁCTICA SUPERVISADA DE LA ORIENTACIÓN (JURÍDICA, LABORAL, EDUCACIÓN, CLÍNICA, COMUNITARIA) <br>
+
+<big><b>QUINTO AÑO – SEGUNDO CUATRIMESTRE</b></big> <br>
+
+PSICOLOGÍA CLÍNICA II (NIÑEZ Y ADOLESCENCIA) <br>
+
+PSICOTERAPIA II <br>
+
+SEMINARIO ELECTIVO DE ACTUALIZACIÓN PROFESIONAL 
+
+<br> <br>
+<big><b>Plan de estudio:</b></big> <a href="https://uncoma.edu.ar/wp-content/uploads/2022/09/ord_0434_20031.pdf">Aqui</a> <br>
+<big><b>BECAS</b></big> <br>
+Para conocer el Programa de Becas de la UNCO ingresar <a href="https://becas.uncoma.edu.ar/">AQUI,</a>
+</a> <br> <br>
+
+<big><b>INSCRIPCIÓN 2025</b></big> <br> <br>
+Para inscribirte, el primer período será del 1° de noviembre al 20 de diciembre de 2024, mientras que el segundo será del 1° de febrero al 28 de febrero de 2025. <br> <br> 
+<a href="https://ingreso2025.uncoma.edu.ar/">Preinscribirme ahora</a> <br> <br>
+<big><b><a href="#inicio">Ir al inicio</a></b></big>
+</p>
+</div>
+</main>
+<footer class="footer">
+  <p>&copy; 2024 Guía Universitaria. Todos los derechos reservados.</p>
+</footer>
+</body>
+</html>

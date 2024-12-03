@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header>
+    <h1><big>DESCUBRI TU VOCACIÓN</big></h1> <br>
+    <nav>
+        <ul class="menu">
+          <li><a href="universidades.html">INICIO</a></li>
+          <li class="submenu">
+            <a href="#">UBICACIÓN</a>
+            <ul class="submenu-content">
+              <li><a href="rio.html">Río Negro</a></li>
+              <li><a href="viedma.html">Viedma</a></li>
+              <li><a href="nqn.html">Neuquén</a></li>
+            </ul>
+          </li>
+          <li class="submenu">
+            <a href="#">CARRERAS MÁS BUSCADAS</a>
+            <ul class="submenu-content">
+              <li><a href="#">Medicina</a></li>
+              <li><a href="#">Abogacía</a></li>
+              <li><a href="#">Ingeniería</a></li>
+              <li><a href="#">Psicología</a></li>
+              </ul>
+          </li>
+          <li><a href="#">PREGUNTAS</a></li>
+        </ul>
+      </nav>
+    
+</header>
+<main>
+    <div id="contenedor-1">
+        <a name="inicio"><h1><center>Instituto Patagonico de las Artes</center></h1> <br></a>
+ <center><img src="data:image/png;base64,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" alt=""></center>
+    </div>
+       <center><img src="data:image/jpeg;base64,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" alt="">
+       <div id="contenedor">
+        <center><big><b><h2>Construyendo Futuro en la Patagonia</h2></b></big></center> <br>
+        <p>En esta pagina podras ver las carreras que ofrece el Instituto Patagonico de las Artes, El perfil del estudiante egresado, El plan de estudio, La duración de la carrera. Tambien podras ingresar a la pagina oficial de la universidad, con la carreras.  </p> <br>
+        <p>Únete a la IUPA y sé parte de un proyecto educativo que no solo potencia tu crecimiento profesional, sino que también contribuye al desarrollo sostenible de la sociedad. nr
+
+        <br> <br>Pagina oficial: <a href="https://iupa.edu.ar/sitio/">AQUI.</a>
+        </p>
+       </div>
+       <div id="contenedor-17">
+        <center><big><h2>INDICE</h2></big></center>
+       </div>
+<div id="contenedor-2">
+<ul class="columna columna-medio">
+    <ul>
+        <big><b>MUSICA</b></big>
+        <li><a href="#Licenciatura en Música Popular">Licenciatura en Música Popular</a></li>
+        <li><a href="#Lic. en Interpretación Musical orientación Canto">Lic. en Interpretación Musical orientación Canto</a></li>
+        <li><a href="#Licenciatura en Interpretación Musical orientación Instrumento">Licenciatura en Interpretación Musical orientación Instrumento</a></li>
+        <li><a href="#Lic. en Música orientación Composición o Dirección Orquestal">Lic. en Música orientación Composición o Dirección Orquestal</a></li>
+        <li><a href="#Lic. en Dirección Coral">Lic. en Dirección Coral</a></li>
+        <li><a href="#Prof. Universitario de Interpretación Musical orientación Canto o Instrumento">Prof. Universitario de Interpretación Musical orientación Canto o Instrumento</a></li>
+        <li><a href="#Prof. Universitario de Educación Musical">Prof. Universitario de Educación Musical</a></li>
+        <li><a href="Tec. Universitaria en Música orientación Canto o Instrumento">Tec. Universitaria en Música orientación Canto o Instrumento</a></li>
+        <b>Mas información: <a href="https://iupa.edu.ar/sitio/carreras/?fwp_categories=musica">AQUI</a></b> <br> <br>
+<ul class="columna columna-medio">
+  <ul>
+      <BIG><b>Artes Visuales</b></BIG>
+      <li><a href="#Profesorado Universitario en Artes Visuales">Profesorado Universitario en Artes Visuales</a></li>
+      <li><a href="#Licenciatura en Artes Visuales">Licenciatura en Artes Visuales</a></li>
+      <li><a href="#Tecnicatura en Artes Visuales">Tecnicatura en Artes Visuales</a></li>
+      <li><a href="#Licenciatura en Geografía">Licenciatura en Geografía</a></li>
+      <b>Mas información: <a href="https://iupa.edu.ar/sitio/carreras/?fwp_categories=artes-visuales">AQUI</a></b>
+      <li><a href="#Licenciatura en Historia">Licenciatura en Historia</a></li>
+      <li><a href="#Licenciatura en Letras">Licenciatura en Letras</a></li>
+      <li><a href="#Licenciatura en Matemática">Licenciatura en Matemática</a></li>
+      <li><a href="#Licenciatura en Saneamiento y Protección Ambiental">Licenciatura en Saneamiento y Protección Ambiental</a></li>
+      <li><a href="#Licenciatura en Servicio Social">Licenciatura en Servicio Social</a></li>
+      <li><a href="#Licenciatura en Sistemas de Información">Licenciatura en Sistemas de Información</a></li>
+      <li><a href="#Licenciatura en Turismo">Licenciatura en Turismo</a></li>
+      <li><a href="#Profesorado de Historia">Profesorado de Historia</a></li>
+      <li><a href="#Profesorado en Ciencias Económicas">Profesorado en Ciencias Económicas</a></li>
+      <li><a href="#Profesorado en Filosofía">Profesorado en Filosofía</a></li>
+      <li><a href="#Profesorado en Física">Profesorado en Física</a></li>
+      <li><a href="#Profesorado en Geografía">Profesorado en Geografía</a></li>
+      <li><a href="#Profesorado en Informática">Profesorado en Informática</a></li>
+      <li><a href="#Profesorado en Letras">Profesorado en Letras</a></li>
+      <li><a href="#Profesorado en Química">Profesorado en Química</a></li>
+      <li><a href="#Profesorado Universitario en Matemática">Profesorado Universitario en Matemática</a></li>
+      <li><a href="#Tecnicatura en Empresas de Servicios Turísticos">Tecnicatura en Empresas de Servicios Turísticos</a></li>
+      <li><a href="#Tecnicatura en Higiene y Seguridad en el Trabajo">Tecnicatura en Higiene y Seguridad en el Trabajo</a></li>
+      <li><a href="#Tecnicatura en Planificación Ambiental">Tecnicatura en Planificación Ambiental</a></li>
+      <li><a href="#Tecnicatura Universitaria en Administración de Sistemas y Software Libre">Tecnicatura Universitaria en Administración de Sistemas y Software Libre</a></li>
+      <li><a href="#Tecnicatura Universitaria en Desarrollo Web">Tecnicatura Universitaria en Desarrollo Web</a></li>
+      <b>Mas información: <a href="https://uncoma.edu.ar/ubicaciones/neuquen-capital-neuquen/">AQUI</a></b>
+    </ul>
+</ul>
+<ul class="columna columna-derecha">
+  <ul>
+    <big><b>San Martín de los Andes (Neuquén)</b></big>
+      <li><a href="#Guía Universitario en Turismo">Guía Universitario en Turismo</a></li>
+      <li><a href="#Ingeniería en Recursos Naturales">Ingeniería en Recursos Naturales</a></li>
+      <li><a href="#Tecnicatura Universitaria en Espacios Verdes">Tecnicatura Universitaria en Espacios Verdes</a></li>
+      <li><a href="#Tecnicatura Universitaria Forestal">Tecnicatura Universitaria Forestal</a></li>
+      <b>Mas información: <a href="https://uncoma.edu.ar/ubicaciones/san-martin-de-los-andes-neuquen/">AQUI</a></b> <br> <br>
+      <big><b>Zapala (Neuquén)</b></big>
+      <li><a href="#Ingeniería en Agrimensura">Ingeniería en Agrimensura</a></li>
+      <li><a href="#Licenciatura en Tecnología Minera">Licenciatura en Tecnología Minera</a></li>
+      <li><a href="#Tecnicatura en Plantas y Análisis de Menas">Tecnicatura en Plantas y Análisis de Menas</a></li>
+      <li><a href="#Tecnicatura Universitaria en Topografía">Tecnicatura Universitaria en Topografía</a></li>
+      <b>Mas información: <a href="https://uncoma.edu.ar/ubicaciones/zapala-neuquen/">AQUI</a></b> <br> <br>
+      <BIG><b>San Carlos de Bariloche</b></BIG>
+      <li><a href="#Ingeniería Civil">Ingeniería Civil</a></li>
+      <li><a href="#Ingeniería Eléctrica"> Ingeniería Eléctrica</a></li>
+      <li><a href="#Ingeniería Electrónica">Ingeniería Electrónica</a></li>
+      <li><a href="#Ingeniería en Petróleo"> Ingeniería en Petróleo</a></li>
+      <li><a href="#Ingeniería Eléctrica">Ingeniería Mecánica</a></li>
+      <li><a href="#Ingeniería Química">Ingeniería Química</a></li>
+      <li><a href="#Licenciatura en Ciencias Biológicas">Licenciatura en Ciencias Biológicas</a></li>
+      <li><a href="#Licenciatura en Enfermería">Licenciatura en Enfermería</a></li>
+      <li><a href="#Licenciatura en Historia">Licenciatura en Historia</a></li>
+      <li><a href="#Licenciatura en Matemática">Licenciatura en Matemática</a></li>
+      <li><a href="#Profesorado de Historia">Profesorado de Historia</a></li>
+      <li><a href="#Profesorado en Ciencias Biológicas">Profesorado en Ciencias Biológicas</a></li>
+      <li><a href="#Profesorado en Educación Física">Profesorado en Educación Física</a></li>
+      <li><a href="#Profesorado Universitario en Matemática">Profesorado Universitario en Matemática</a></li>
+      <li><a href="#Técnico Universitario en Acuicultura">Técnico Universitario en Acuicultura</a></li>
+      <b>Mas información: <a href="https://uncoma.edu.ar/ubicaciones/san-carlos-de-bariloche-rio-negro/">AQUI</a></b> <br> <br>
+    </ul>
+</ul>
+</div>
+
+<div id="contenedor-3">
+    <a name="Licenciatura en Música Popular"></a>
+    <h2>Licenciatura en Música Popular</h2> <br>
+    <p><big><b>TÍTULO:</b></big> Licenciatura en Música Popular<br> <br>
+       <big><b> DURACIÓN:</b></big> 4 AÑOS <br> <br>
+       Carrera apasionante, compacta y divertida. Ofrece el más diverso abanico de instrumentos musicales: desde la guitarra criolla hasta el bandoneón. Alberga la formación teórico práctica imprescindible y necesaria para tu desarrollo profesional. Está pensada para perfeccionar destrezas y habilidades en la integración laboral del músico actual. Tiene, en su haber, cuatro géneros básicos: jazz, rock, folclore y tango, a elección. <br> <br>
+
+       Como Licenciado/a en Música popular podrás desempeñarte en el rol de intérprete, compositor y arreglador de diversas formaciones instrumentales; podrás ejecutar y asesorar proyectos en instituciones oficiales, organizaciones no gubernamentales, fundaciones o empresas privadas del arte y la cultura. <br>
+       
+       Además, te abre un espacio en la industria discográfica y en los escenarios. Te impulsará a participar en proyectos de gestión cultural como herramienta para la transformación e inclusión social. 
+       Haber cumplimentado el Ciclo Introductorio Universitario del IUPA.
+       <br> <br> 
+<big><b> Requisitos académicos para obtener el título:</b></big>– Ciclo de nivel medio de la enseñanza común completo. Mayores de 25 años sin título secundario: cumplir con los requisitos definidos por el Art. 7° de la Ley N° 24521 y lo establecido por la reglamentación del IUPA. <br> <br>
+ <big><b>Plan de estudio:</b></big> <a href="https://iupa.edu.ar/sitio/wp-content/uploads/2019/03/planLICENCIATURAMUSICAPOP.pdf">Aqui</a> <br>
+ <big><b>BECAS</b></big> <br>
+ Para conocer el Programa de Becas del IUPA ingresar <a href="https://iupa.edu.ar/sitio/secretaria-de-extension-cultural-y-bienestar/becas-3/">AQUI,</a>
+</a> <br> <br>
+<big><b>INSCRIPCIÓN 2025</b></big> <br> <br>
+<a href="https://guarani.iupa.edu.ar/preinscripcion/iupa/">AQUI</a> <br> <br>
+ <big><b><a href="#inicio">Ir al inicio</a></b></big>
+    </p>
+</div>
+
+<div id="contenedor-3">
+  <a name="Lic. en Interpretación Musical orientación Canto"></a>
+  <h2>Lic. en Interpretación Musical orientación Canto</h2> <br>
+  <p><big><b>TÍTULO:</b></big>Licenciatura en Interpretación Musical orientación Canto
+    <br> <br>
+     <big><b> DURACIÓN:</b></big> 5 AÑOS <br> <br>
+     La Licenciatura en Música con orientación en Canto tiene por objeto el desarrollo de las cualidades vocales de los estudiantes para una optimización de su calidad sonora
+     expresiva, potenciando la formación de intérpretes vocales aptos para ejecutar diversos repertorios de la música académica, tanto sinfónico vocales, escénicos y camarísticos, en distintos idiomas, que les permitirán insertarse en el campo profesional. <br> <br>
+     
+     Asimismo, los alumnos adquirirán los conocimientos necesarios para integrar ensambles y coros profesionales dedicados a diversos géneros de la música vocal. <br> <br>
+     La Carrera acentúa espacios de experimentación en lo referente a las técnicas de actuación y el desenvolvimiento escénico de los cantantes, tanto en producciones performáticas como en conciertos de cámara. <br> <br>
+     
+     Por otra parte, la Carrera promueve la interpretación y difusión de obras de compositores argentinos y latinoamericanos con la finalidad de fortalecer dicha identidad cultural. 
+<br> <br> 
+<big><b> Requisitos académicos para obtener el título:</b></big> – Ciclo de nivel medio de la enseñanza común completo. Mayores de 25 años sin título secundario: cumplir con los requisitos definidos por el Art. 7° de la Ley N° 24.521 y lo establecido por la reglamentación del IUPA.
+
+– Haber cumplimentado el Curso Introductorio Universitario del IUPA. <br>
+
+– Haber aprobado el Ciclo Introductorio de Estudios Musicales de la carrera canto o instrumento del IUPA o
+
+– Haber aprobado el Curso de Formación en Música (Programa de Extensión Académica del IUPA). <br> <br>
+<big><b>Plan de estudio:</b></big> <a href="https://iupa.edu.ar/sitio/wp-content/uploads/2017/10/planLICenINTERPRETACIONMUSICAL-2018.pdf">Aqui</a> <br>
+<big><b>BECAS</b></big> <br>
+Para conocer el Programa de Becas del IUPA ingresar <a href="https://becas.uncoma.edu.ar/">AQUI,</a>
+</a> <br> <br>
+
+<big><b>INSCRIPCIÓN 2025</b></big> <br> <br>
+<a href="https://guarani.iupa.edu.ar/preinscripcion/iupa/">Preinscribirme ahora</a> <br> <br>
+<big><b><a href="#inicio">Ir al inicio</a></b></big>
+</p>
+</div>
+
+<div id="contenedor-3">
+  <a name="Licenciatura en Interpretación Musical orientación Instrumento"></a>
+  <h2>Licenciatura en Interpretación Musical orientación Instrumento</h2> <br>
+  <p><big><b>TÍTULO:</b></big>Licenciatura en Interpretación Musical orientación Instrumento
+    <br> <br>
+     <big><b> DURACIÓN:</b></big> 5 AÑOS <br> <br>
+     La Carrera de Licenciatura en Música, cuyas orientaciones se encuentran conformadas por una rica variedad de instrumentos, tiene por objeto el estudio y práctica de técnicas de ejecución y aplicación de criterios de interpretación instrumental para la obtención del máximo rendimiento sonoro y calidad de su discurso musical. <br>
+
+     La diversidad de instrumentos que abarca la Licenciatura con su tipología y características específicas, implica la formación de intérpretes solistas, de cámara, de ensambles y orquestales abarcando géneros y estilos del campo musical académico y popular. <br>
+     
+     La Licenciatura ofrece una formación integral del músico, especializando al intérprete instrumental en su desempeño profesional como solista, integrando grupos de cámara
+     diversos en cuanto a su orgánico, conformando ensambles dedicados especialmente a un género o estilo de la música académica y popular y en el caso de los instrumentos
+     sinfónicos accediendo a integrar orquestas profesionales que le permitirán su inserción laboral en el medio musical. <br>
+     
+     La Carrera acentúa en su trayecto curricular el desempeño grupal del intérprete, aportando diversidad de criterios de interpretación en conjunto y perfeccionando la audición propia y del grupo de cámara o de ensamble. <br>
+     
+     Además, la Licenciatura promueve la interpretación y difusión de obras de compositores argentinos y latinoamericanos con la finalidad de fortalecer dicha identidad cultural. <br>
+<br> <br> 
+<big><b> Requisitos académicos para obtener el título:</b></big> – Ciclo de nivel medio de la enseñanza común completo. Mayores de 25 años sin título secundario:  <br> <br>cumplir con los requisitos definidos por el Art. 7° de la Ley N° 24.521 y lo establecido por la reglamentación del IUPA. <br>
+
+– Haber cumplimentado el Curso Introductorio Universitario del IUPA. <br>
+
+– Haber aprobado el Ciclo Introductorio de Estudios Musicales de la carrera canto o instrumento del IUPA o
+
+– Haber aprobado el Curso de Formación en Música (Programa de Extensión Académica del IUPA). <br> <br>
+<big><b>Plan de estudio:</b></big> <a href="https://iupa.edu.ar/sitio/wp-content/uploads/2017/10/planLICenINTERPRETACIONMUSICAL-2018.pdf">Aqui</a> <br>
+<big><b>BECAS</b></big> <br>
+Para conocer el Programa de Becas del IUPA ingresar <a href="https://becas.uncoma.edu.ar/">AQUI,</a>
+</a> <br> <br>
+
+<big><b>INSCRIPCIÓN 2025</b></big> <br> <br>
+<a href="https://guarani.iupa.edu.ar/preinscripcion/iupa/">Preinscribirme ahora</a> <br> <br>
+<big><b><a href="#inicio">Ir al inicio</a></b></big>
+</p>
+</div>
+<div id="contenedor-3">
+  <a name="Licenciatura en Interpretación Musical orientación Instrumento"></a>
+  <h2>Licenciatura en Interpretación Musical orientación Instrumento</h2> <br>
+  <p><big><b>TÍTULO:</b></big>Licenciatura en Interpretación Musical orientación Instrumento
+    <br> <br>
+     <big><b> DURACIÓN:</b></big> 5 AÑOS <br> <br>
+     La Carrera de Licenciatura en Música, cuyas orientaciones se encuentran conformadas por una rica variedad de instrumentos, tiene por objeto el estudio y práctica de técnicas de ejecución y aplicación de criterios de interpretación instrumental para la obtención del máximo rendimiento sonoro y calidad de su discurso musical. <br>
+
+     La diversidad de instrumentos que abarca la Licenciatura con su tipología y características específicas, implica la formación de intérpretes solistas, de cámara, de ensambles y orquestales abarcando géneros y estilos del campo musical académico y popular. <br>
+     
+     La Licenciatura ofrece una formación integral del músico, especializando al intérprete instrumental en su desempeño profesional como solista, integrando grupos de cámara
+     diversos en cuanto a su orgánico, conformando ensambles dedicados especialmente a un género o estilo de la música académica y popular y en el caso de los instrumentos
+     sinfónicos accediendo a integrar orquestas profesionales que le permitirán su inserción laboral en el medio musical. <br>
+     
+     La Carrera acentúa en su trayecto curricular el desempeño grupal del intérprete, aportando diversidad de criterios de interpretación en conjunto y perfeccionando la audición propia y del grupo de cámara o de ensamble. <br>
+     
+     Además, la Licenciatura promueve la interpretación y difusión de obras de compositores argentinos y latinoamericanos con la finalidad de fortalecer dicha identidad cultural. <br>
+<br> <br> 
+<big><b> Requisitos académicos para obtener el título:</b></big> – Ciclo de nivel medio de la enseñanza común completo. Mayores de 25 años sin título secundario: cumplir con los requisitos definidos por el Art. 7° de la Ley N° 24.521 y lo establecido por la reglamentación del IUPA. <br>
+
+– Haber cumplimentado el Curso Introductorio Universitario del IUPA. <br>
+
+– Haber aprobado el Ciclo Introductorio de Estudios Musicales de la carrera canto o instrumento del IUPA o
+
+– Haber aprobado el Curso de Formación en Música (Programa de Extensión Académica del IUPA). <br> <br>
+<big><b>Plan de estudio:</b></big> <a href="https://iupa.edu.ar/sitio/wp-content/uploads/2017/10/planLICenINTERPRETACIONMUSICAL-2018.pdf">Aqui</a> <br>
+<big><b>BECAS</b></big> <br>
+Para conocer el Programa de Becas del IUPA ingresar <a href="https://becas.uncoma.edu.ar/">AQUI,</a>
+</a> <br> <br>
+
+<big><b>INSCRIPCIÓN 2025</b></big> <br> <br>
+<a href="https://guarani.iupa.edu.ar/preinscripcion/iupa/">Preinscribirme ahora</a> <br> <br>
+<big><b><a href="#inicio">Ir al inicio</a></b></big>
+</p>
+</div>
+<div id="contenedor-3">
+  <a name="Lic. en Interpretación Musical orientación Canto"></a>
+  <h2>Lic. en Interpretación Musical orientación Canto</h2> <br>
+  <p><big><b>TÍTULO:</b></big>Licenciatura en Interpretación Musical orientación Canto
+    <br> <br>
+     <big><b> DURACIÓN:</b></big> 5 AÑOS <br> <br>
+     La Licenciatura en Música con orientación en Canto tiene por objeto el desarrollo de las cualidades vocales de los estudiantes para una optimización de su calidad sonora
+     expresiva, potenciando la formación de intérpretes vocales aptos para ejecutar diversos repertorios de la música académica, tanto sinfónico vocales, escénicos y camarísticos, en distintos idiomas, que les permitirán insertarse en el campo profesional. <br> <br>
+     
+     Asimismo, los alumnos adquirirán los conocimientos necesarios para integrar ensambles y coros profesionales dedicados a diversos géneros de la música vocal. <br> <br>
+     La Carrera acentúa espacios de experimentación en lo referente a las técnicas de actuación y el desenvolvimiento escénico de los cantantes, tanto en producciones performáticas como en conciertos de cámara. <br> <br>
+     
+     Por otra parte, la Carrera promueve la interpretación y difusión de obras de compositores argentinos y latinoamericanos con la finalidad de fortalecer dicha identidad cultural. 
+<br> <br> 
+<big><b> Requisitos académicos para obtener el título:</b></big> – Ciclo de nivel medio de la enseñanza común completo. Mayores de 25 años sin título secundario: cumplir con los requisitos definidos por el Art. 7° de la Ley N° 24.521 y lo establecido por la reglamentación del IUPA.
+
+– Haber cumplimentado el Curso Introductorio Universitario del IUPA. <br>
+
+– Haber aprobado el Ciclo Introductorio de Estudios Musicales de la carrera canto o instrumento del IUPA o
+
+– Haber aprobado el Curso de Formación en Música (Programa de Extensión Académica del IUPA). <br> <br>
+<big><b>Plan de estudio:</b></big> <a href="https://iupa.edu.ar/sitio/wp-content/uploads/2017/10/planLICenINTERPRETACIONMUSICAL-2018.pdf">Aqui</a> <br>
+<big><b>BECAS</b></big> <br>
+Para conocer el Programa de Becas del IUPA ingresar <a href="https://becas.uncoma.edu.ar/">AQUI,</a>
+</a> <br> <br>
+
+<big><b>INSCRIPCIÓN 2025</b></big> <br> <br>
+<a href="https://guarani.iupa.edu.ar/preinscripcion/iupa/">Preinscribirme ahora</a> <br> <br>
+<big><b><a href="#inicio">Ir al inicio</a></b></big>
+</p>
+</div>
+<div id="contenedor-3">
+  <a name="Lic. en Interpretación Musical orientación Canto"></a>
+  <h2>Lic. en Interpretación Musical orientación Canto</h2> <br>
+  <p><big><b>TÍTULO:</b></big>Licenciatura en Interpretación Musical orientación Canto
+    <br> <br>
+     <big><b> DURACIÓN:</b></big> 5 AÑOS <br> <br>
+     La Licenciatura en Música con orientación en Canto tiene por objeto el desarrollo de las cualidades vocales de los estudiantes para una optimización de su calidad sonora
+     expresiva, potenciando la formación de intérpretes vocales aptos para ejecutar diversos repertorios de la música académica, tanto sinfónico vocales, escénicos y camarísticos, en distintos idiomas, que les permitirán insertarse en el campo profesional. <br> <br>
+     
+     Asimismo, los alumnos adquirirán los conocimientos necesarios para integrar ensambles y coros profesionales dedicados a diversos géneros de la música vocal. <br> <br>
+     La Carrera acentúa espacios de experimentación en lo referente a las técnicas de actuación y el desenvolvimiento escénico de los cantantes, tanto en producciones performáticas como en conciertos de cámara. <br> <br>
+     
+     Por otra parte, la Carrera promueve la interpretación y difusión de obras de compositores argentinos y latinoamericanos con la finalidad de fortalecer dicha identidad cultural. 
+<br> <br> 
+<big><b> Requisitos académicos para obtener el título:</b></big> – Ciclo de nivel medio de la enseñanza común completo. Mayores de 25 años sin título secundario: cumplir con los requisitos definidos por el Art. 7° de la Ley N° 24.521 y lo establecido por la reglamentación del IUPA.
+
+– Haber cumplimentado el Curso Introductorio Universitario del IUPA. <br>
+
+– Haber aprobado el Ciclo Introductorio de Estudios Musicales de la carrera canto o instrumento del IUPA o
+
+– Haber aprobado el Curso de Formación en Música (Programa de Extensión Académica del IUPA). <br> <br>
+<big><b>Plan de estudio:</b></big> <a href="https://iupa.edu.ar/sitio/wp-content/uploads/2017/10/planLICenINTERPRETACIONMUSICAL-2018.pdf">Aqui</a> <br>
+<big><b>BECAS</b></big> <br>
+Para conocer el Programa de Becas del IUPA ingresar <a href="https://becas.uncoma.edu.ar/">AQUI,</a>
+</a> <br> <br>
+
+<big><b>INSCRIPCIÓN 2025</b></big> <br> <br>
+<a href="https://guarani.iupa.edu.ar/preinscripcion/iupa/">Preinscribirme ahora</a> <br> <br>
+<big><b><a href="#inicio">Ir al inicio</a></b></big>
+</p>
+</div>
+<div id="contenedor-3">
+  <a name="Lic. en Interpretación Musical orientación Canto"></a>
+  <h2>Lic. en Interpretación Musical orientación Canto</h2> <br>
+  <p><big><b>TÍTULO:</b></big>Licenciatura en Interpretación Musical orientación Canto
+    <br> <br>
+     <big><b> DURACIÓN:</b></big> 5 AÑOS <br> <br>
+     La Licenciatura en Música con orientación en Canto tiene por objeto el desarrollo de las cualidades vocales de los estudiantes para una optimización de su calidad sonora
+     expresiva, potenciando la formación de intérpretes vocales aptos para ejecutar diversos repertorios de la música académica, tanto sinfónico vocales, escénicos y camarísticos, en distintos idiomas, que les permitirán insertarse en el campo profesional. <br> <br>
+     
+     Asimismo, los alumnos adquirirán los conocimientos necesarios para integrar ensambles y coros profesionales dedicados a diversos géneros de la música vocal. <br> <br>
+     La Carrera acentúa espacios de experimentación en lo referente a las técnicas de actuación y el desenvolvimiento escénico de los cantantes, tanto en producciones performáticas como en conciertos de cámara. <br> <br>
+     
+     Por otra parte, la Carrera promueve la interpretación y difusión de obras de compositores argentinos y latinoamericanos con la finalidad de fortalecer dicha identidad cultural. 
+<br> <br> 
+<big><b> Requisitos académicos para obtener el título:</b></big> – Ciclo de nivel medio de la enseñanza común completo. Mayores de 25 años sin título secundario: cumplir con los requisitos definidos por el Art. 7° de la Ley N° 24.521 y lo establecido por la reglamentación del IUPA.
+
+– Haber cumplimentado el Curso Introductorio Universitario del IUPA. <br>
+
+– Haber aprobado el Ciclo Introductorio de Estudios Musicales de la carrera canto o instrumento del IUPA o
+
+– Haber aprobado el Curso de Formación en Música (Programa de Extensión Académica del IUPA). <br> <br>
+<big><b>Plan de estudio:</b></big> <a href="https://iupa.edu.ar/sitio/wp-content/uploads/2017/10/planLICenINTERPRETACIONMUSICAL-2018.pdf">Aqui</a> <br>
+<big><b>BECAS</b></big> <br>
+Para conocer el Programa de Becas del IUPA ingresar <a href="https://becas.uncoma.edu.ar/">AQUI,</a>
+</a> <br> <br>
+
+<big><b>INSCRIPCIÓN 2025</b></big> <br> <br>
+<a href="https://guarani.iupa.edu.ar/preinscripcion/iupa/">Preinscribirme ahora</a> <br> <br>
+<big><b><a href="#inicio">Ir al inicio</a></b></big>
+</p>
+</div>
+<div id="contenedor-3">
+  <a name="Lic. en Interpretación Musical orientación Canto"></a>
+  <h2>Lic. en Interpretación Musical orientación Canto</h2> <br>
+  <p><big><b>TÍTULO:</b></big>Licenciatura en Interpretación Musical orientación Canto
+    <br> <br>
+     <big><b> DURACIÓN:</b></big> 5 AÑOS <br> <br>
+     La Licenciatura en Música con orientación en Canto tiene por objeto el desarrollo de las cualidades vocales de los estudiantes para una optimización de su calidad sonora
+     expresiva, potenciando la formación de intérpretes vocales aptos para ejecutar diversos repertorios de la música académica, tanto sinfónico vocales, escénicos y camarísticos, en distintos idiomas, que les permitirán insertarse en el campo profesional. <br> <br>
+     
+     Asimismo, los alumnos adquirirán los conocimientos necesarios para integrar ensambles y coros profesionales dedicados a diversos géneros de la música vocal. <br> <br>
+     La Carrera acentúa espacios de experimentación en lo referente a las técnicas de actuación y el desenvolvimiento escénico de los cantantes, tanto en producciones performáticas como en conciertos de cámara. <br> <br>
+     
+     Por otra parte, la Carrera promueve la interpretación y difusión de obras de compositores argentinos y latinoamericanos con la finalidad de fortalecer dicha identidad cultural. 
+<br> <br> 
+<big><b> Requisitos académicos para obtener el título:</b></big> – Ciclo de nivel medio de la enseñanza común completo. Mayores de 25 años sin título secundario: cumplir con los requisitos definidos por el Art. 7° de la Ley N° 24.521 y lo establecido por la reglamentación del IUPA.
+
+– Haber cumplimentado el Curso Introductorio Universitario del IUPA. <br>
+
+– Haber aprobado el Ciclo Introductorio de Estudios Musicales de la carrera canto o instrumento del IUPA o
+
+– Haber aprobado el Curso de Formación en Música (Programa de Extensión Académica del IUPA). <br> <br>
+<big><b>Plan de estudio:</b></big> <a href="https://iupa.edu.ar/sitio/wp-content/uploads/2017/10/planLICenINTERPRETACIONMUSICAL-2018.pdf">Aqui</a> <br>
+<big><b>BECAS</b></big> <br>
+Para conocer el Programa de Becas del IUPA ingresar <a href="https://becas.uncoma.edu.ar/">AQUI,</a>
+</a> <br> <br>
+
+<big><b>INSCRIPCIÓN 2025</b></big> <br> <br>
+<a href="https://guarani.iupa.edu.ar/preinscripcion/iupa/">Preinscribirme ahora</a> <br> <br>
+<big><b><a href="#inicio">Ir al inicio</a></b></big>
+</p>
+</div>
+<div id="contenedor-3">
+  <a name="Lic. en Interpretación Musical orientación Canto"></a>
+  <h2>Lic. en Interpretación Musical orientación Canto</h2> <br>
+  <p><big><b>TÍTULO:</b></big>Licenciatura en Interpretación Musical orientación Canto
+    <br> <br>
+     <big><b> DURACIÓN:</b></big> 5 AÑOS <br> <br>
+     La Licenciatura en Música con orientación en Canto tiene por objeto el desarrollo de las cualidades vocales de los estudiantes para una optimización de su calidad sonora
+     expresiva, potenciando la formación de intérpretes vocales aptos para ejecutar diversos repertorios de la música académica, tanto sinfónico vocales, escénicos y camarísticos, en distintos idiomas, que les permitirán insertarse en el campo profesional. <br> <br>
+     
+     Asimismo, los alumnos adquirirán los conocimientos necesarios para integrar ensambles y coros profesionales dedicados a diversos géneros de la música vocal. <br> <br>
+     La Carrera acentúa espacios de experimentación en lo referente a las técnicas de actuación y el desenvolvimiento escénico de los cantantes, tanto en producciones performáticas como en conciertos de cámara. <br> <br>
+     
+     Por otra parte, la Carrera promueve la interpretación y difusión de obras de compositores argentinos y latinoamericanos con la finalidad de fortalecer dicha identidad cultural. 
+<br> <br> 
+<big><b> Requisitos académicos para obtener el título:</b></big> – Ciclo de nivel medio de la enseñanza común completo. Mayores de 25 años sin título secundario: cumplir con los requisitos definidos por el Art. 7° de la Ley N° 24.521 y lo establecido por la reglamentación del IUPA.
+
+– Haber cumplimentado el Curso Introductorio Universitario del IUPA. <br>
+
+– Haber aprobado el Ciclo Introductorio de Estudios Musicales de la carrera canto o instrumento del IUPA o
+
+– Haber aprobado el Curso de Formación en Música (Programa de Extensión Académica del IUPA). <br> <br>
+<big><b>Plan de estudio:</b></big> <a href="https://iupa.edu.ar/sitio/wp-content/uploads/2017/10/planLICenINTERPRETACIONMUSICAL-2018.pdf">Aqui</a> <br>
+<big><b>BECAS</b></big> <br>
+Para conocer el Programa de Becas del IUPA ingresar <a href="https://becas.uncoma.edu.ar/">AQUI,</a>
+</a> <br> <br>
+
+<big><b>INSCRIPCIÓN 2025</b></big> <br> <br>
+<a href="https://guarani.iupa.edu.ar/preinscripcion/iupa/">Preinscribirme ahora</a> <br> <br>
+<big><b><a href="#inicio">Ir al inicio</a></b></big>
+</p>
+</div>
+<div id="contenedor-3">
+  <a name="Lic. en Interpretación Musical orientación Canto"></a>
+  <h2>Lic. en Interpretación Musical orientación Canto</h2> <br>
+  <p><big><b>TÍTULO:</b></big>Licenciatura en Interpretación Musical orientación Canto
+    <br> <br>
+     <big><b> DURACIÓN:</b></big> 5 AÑOS <br> <br>
+     La Licenciatura en Música con orientación en Canto tiene por objeto el desarrollo de las cualidades vocales de los estudiantes para una optimización de su calidad sonora
+     expresiva, potenciando la formación de intérpretes vocales aptos para ejecutar diversos repertorios de la música académica, tanto sinfónico vocales, escénicos y camarísticos, en distintos idiomas, que les permitirán insertarse en el campo profesional. <br> <br>
+     
+     Asimismo, los alumnos adquirirán los conocimientos necesarios para integrar ensambles y coros profesionales dedicados a diversos géneros de la música vocal. <br> <br>
+     La Carrera acentúa espacios de experimentación en lo referente a las técnicas de actuación y el desenvolvimiento escénico de los cantantes, tanto en producciones performáticas como en conciertos de cámara. <br> <br>
+     
+     Por otra parte, la Carrera promueve la interpretación y difusión de obras de compositores argentinos y latinoamericanos con la finalidad de fortalecer dicha identidad cultural. 
+<br> <br> 
+<big><b> Requisitos académicos para obtener el título:</b></big> – Ciclo de nivel medio de la enseñanza común completo. Mayores de 25 años sin título secundario: cumplir con los requisitos definidos por el Art. 7° de la Ley N° 24.521 y lo establecido por la reglamentación del IUPA.
+
+– Haber cumplimentado el Curso Introductorio Universitario del IUPA. <br>
+
+– Haber aprobado el Ciclo Introductorio de Estudios Musicales de la carrera canto o instrumento del IUPA o
+
+– Haber aprobado el Curso de Formación en Música (Programa de Extensión Académica del IUPA). <br> <br>
+<big><b>Plan de estudio:</b></big> <a href="https://iupa.edu.ar/sitio/wp-content/uploads/2017/10/planLICenINTERPRETACIONMUSICAL-2018.pdf">Aqui</a> <br>
+<big><b>BECAS</b></big> <br>
+Para conocer el Programa de Becas del IUPA ingresar <a href="https://becas.uncoma.edu.ar/">AQUI,</a>
+</a> <br> <br>
+
+<big><b>INSCRIPCIÓN 2025</b></big> <br> <br>
+<a href="https://guarani.iupa.edu.ar/preinscripcion/iupa/">Preinscribirme ahora</a> <br> <br>
+<big><b><a href="#inicio">Ir al inicio</a></b></big>
+</p>
+</div>
+<div id="contenedor-3">
+  <a name="Lic. en Interpretación Musical orientación Canto"></a>
+  <h2>Lic. en Interpretación Musical orientación Canto</h2> <br>
+  <p><big><b>TÍTULO:</b></big>Licenciatura en Interpretación Musical orientación Canto
+    <br> <br>
+     <big><b> DURACIÓN:</b></big> 5 AÑOS <br> <br>
+     La Licenciatura en Música con orientación en Canto tiene por objeto el desarrollo de las cualidades vocales de los estudiantes para una optimización de su calidad sonora
+     expresiva, potenciando la formación de intérpretes vocales aptos para ejecutar diversos repertorios de la música académica, tanto sinfónico vocales, escénicos y camarísticos, en distintos idiomas, que les permitirán insertarse en el campo profesional. <br> <br>
+     
+     Asimismo, los alumnos adquirirán los conocimientos necesarios para integrar ensambles y coros profesionales dedicados a diversos géneros de la música vocal. <br> <br>
+     La Carrera acentúa espacios de experimentación en lo referente a las técnicas de actuación y el desenvolvimiento escénico de los cantantes, tanto en producciones performáticas como en conciertos de cámara. <br> <br>
+     
+     Por otra parte, la Carrera promueve la interpretación y difusión de obras de compositores argentinos y latinoamericanos con la finalidad de fortalecer dicha identidad cultural. 
+<br> <br> 
+<big><b> Requisitos académicos para obtener el título:</b></big> – Ciclo de nivel medio de la enseñanza común completo. Mayores de 25 años sin título secundario: cumplir con los requisitos definidos por el Art. 7° de la Ley N° 24.521 y lo establecido por la reglamentación del IUPA.
+
+– Haber cumplimentado el Curso Introductorio Universitario del IUPA. <br>
+
+– Haber aprobado el Ciclo Introductorio de Estudios Musicales de la carrera canto o instrumento del IUPA o
+
+– Haber aprobado el Curso de Formación en Música (Programa de Extensión Académica del IUPA). <br> <br>
+<big><b>Plan de estudio:</b></big> <a href="https://iupa.edu.ar/sitio/wp-content/uploads/2017/10/planLICenINTERPRETACIONMUSICAL-2018.pdf">Aqui</a> <br>
+<big><b>BECAS</b></big> <br>
+Para conocer el Programa de Becas del IUPA ingresar <a href="https://becas.uncoma.edu.ar/">AQUI,</a>
+</a> <br> <br>
+
+<big><b>INSCRIPCIÓN 2025</b></big> <br> <br>
+<a href="https://guarani.iupa.edu.ar/preinscripcion/iupa/">Preinscribirme ahora</a> <br> <br>
+<big><b><a href="#inicio">Ir al inicio</a></b></big>
+</p>
+</div>
+<div id="contenedor-3">
+  <a name="Lic. en Interpretación Musical orientación Canto"></a>
+  <h2>Lic. en Interpretación Musical orientación Canto</h2> <br>
+  <p><big><b>TÍTULO:</b></big>Licenciatura en Interpretación Musical orientación Canto
+    <br> <br>
+     <big><b> DURACIÓN:</b></big> 5 AÑOS <br> <br>
+     La Licenciatura en Música con orientación en Canto tiene por objeto el desarrollo de las cualidades vocales de los estudiantes para una optimización de su calidad sonora
+     expresiva, potenciando la formación de intérpretes vocales aptos para ejecutar diversos repertorios de la música académica, tanto sinfónico vocales, escénicos y camarísticos, en distintos idiomas, que les permitirán insertarse en el campo profesional. <br> <br>
+     
+     Asimismo, los alumnos adquirirán los conocimientos necesarios para integrar ensambles y coros profesionales dedicados a diversos géneros de la música vocal. <br> <br>
+     La Carrera acentúa espacios de experimentación en lo referente a las técnicas de actuación y el desenvolvimiento escénico de los cantantes, tanto en producciones performáticas como en conciertos de cámara. <br> <br>
+     
+     Por otra parte, la Carrera promueve la interpretación y difusión de obras de compositores argentinos y latinoamericanos con la finalidad de fortalecer dicha identidad cultural. 
+<br> <br> 
+<big><b> Requisitos académicos para obtener el título:</b></big> – Ciclo de nivel medio de la enseñanza común completo. Mayores de 25 años sin título secundario: cumplir con los requisitos definidos por el Art. 7° de la Ley N° 24.521 y lo establecido por la reglamentación del IUPA.
+
+– Haber cumplimentado el Curso Introductorio Universitario del IUPA. <br>
+
+– Haber aprobado el Ciclo Introductorio de Estudios Musicales de la carrera canto o instrumento del IUPA o
+
+– Haber aprobado el Curso de Formación en Música (Programa de Extensión Académica del IUPA). <br> <br>
+<big><b>Plan de estudio:</b></big> <a href="https://iupa.edu.ar/sitio/wp-content/uploads/2017/10/planLICenINTERPRETACIONMUSICAL-2018.pdf">Aqui</a> <br>
+<big><b>BECAS</b></big> <br>
+Para conocer el Programa de Becas del IUPA ingresar <a href="https://becas.uncoma.edu.ar/">AQUI,</a>
+</a> <br> <br>
+
+<big><b>INSCRIPCIÓN 2025</b></big> <br> <br>
+<a href="https://guarani.iupa.edu.ar/preinscripcion/iupa/">Preinscribirme ahora</a> <br> <br>
+<big><b><a href="#inicio">Ir al inicio</a></b></big>
+</p>
+</div>
+<div id="contenedor-3">
+  <a name="Lic. en Interpretación Musical orientación Canto"></a>
+  <h2>Lic. en Interpretación Musical orientación Canto</h2> <br>
+  <p><big><b>TÍTULO:</b></big>Licenciatura en Interpretación Musical orientación Canto
+    <br> <br>
+     <big><b> DURACIÓN:</b></big> 5 AÑOS <br> <br>
+     La Licenciatura en Música con orientación en Canto tiene por objeto el desarrollo de las cualidades vocales de los estudiantes para una optimización de su calidad sonora
+     expresiva, potenciando la formación de intérpretes vocales aptos para ejecutar diversos repertorios de la música académica, tanto sinfónico vocales, escénicos y camarísticos, en distintos idiomas, que les permitirán insertarse en el campo profesional. <br> <br>
+     
+     Asimismo, los alumnos adquirirán los conocimientos necesarios para integrar ensambles y coros profesionales dedicados a diversos géneros de la música vocal. <br> <br>
+     La Carrera acentúa espacios de experimentación en lo referente a las técnicas de actuación y el desenvolvimiento escénico de los cantantes, tanto en producciones performáticas como en conciertos de cámara. <br> <br>
+     
+     Por otra parte, la Carrera promueve la interpretación y difusión de obras de compositores argentinos y latinoamericanos con la finalidad de fortalecer dicha identidad cultural. 
+<br> <br> 
+<big><b> Requisitos académicos para obtener el título:</b></big> – Ciclo de nivel medio de la enseñanza común completo. Mayores de 25 años sin título secundario: cumplir con los requisitos definidos por el Art. 7° de la Ley N° 24.521 y lo establecido por la reglamentación del IUPA.
+
+– Haber cumplimentado el Curso Introductorio Universitario del IUPA. <br>
+
+– Haber aprobado el Ciclo Introductorio de Estudios Musicales de la carrera canto o instrumento del IUPA o
+
+– Haber aprobado el Curso de Formación en Música (Programa de Extensión Académica del IUPA). <br> <br>
+<big><b>Plan de estudio:</b></big> <a href="https://iupa.edu.ar/sitio/wp-content/uploads/2017/10/planLICenINTERPRETACIONMUSICAL-2018.pdf">Aqui</a> <br>
+<big><b>BECAS</b></big> <br>
+Para conocer el Programa de Becas del IUPA ingresar <a href="https://becas.uncoma.edu.ar/">AQUI,</a>
+</a> <br> <br>
+
+<big><b>INSCRIPCIÓN 2025</b></big> <br> <br>
+<a href="https://guarani.iupa.edu.ar/preinscripcion/iupa/">Preinscribirme ahora</a> <br> <br>
+<big><b><a href="#inicio">Ir al inicio</a></b></big>
+</p>
+</div>
+<div id="contenedor-3">
+  <a name="Lic. en Interpretación Musical orientación Canto"></a>
+  <h2>Lic. en Interpretación Musical orientación Canto</h2> <br>
+  <p><big><b>TÍTULO:</b></big>Licenciatura en Interpretación Musical orientación Canto
+    <br> <br>
+     <big><b> DURACIÓN:</b></big> 5 AÑOS <br> <br>
+     La Licenciatura en Música con orientación en Canto tiene por objeto el desarrollo de las cualidades vocales de los estudiantes para una optimización de su calidad sonora
+     expresiva, potenciando la formación de intérpretes vocales aptos para ejecutar diversos repertorios de la música académica, tanto sinfónico vocales, escénicos y camarísticos, en distintos idiomas, que les permitirán insertarse en el campo profesional. <br> <br>
+     
+     Asimismo, los alumnos adquirirán los conocimientos necesarios para integrar ensambles y coros profesionales dedicados a diversos géneros de la música vocal. <br> <br>
+     La Carrera acentúa espacios de experimentación en lo referente a las técnicas de actuación y el desenvolvimiento escénico de los cantantes, tanto en producciones performáticas como en conciertos de cámara. <br> <br>
+     
+     Por otra parte, la Carrera promueve la interpretación y difusión de obras de compositores argentinos y latinoamericanos con la finalidad de fortalecer dicha identidad cultural. 
+<br> <br> 
+<big><b> Requisitos académicos para obtener el título:</b></big> – Ciclo de nivel medio de la enseñanza común completo. Mayores de 25 años sin título secundario: cumplir con los requisitos definidos por el Art. 7° de la Ley N° 24.521 y lo establecido por la reglamentación del IUPA.
+
+– Haber cumplimentado el Curso Introductorio Universitario del IUPA. <br>
+
+– Haber aprobado el Ciclo Introductorio de Estudios Musicales de la carrera canto o instrumento del IUPA o
+
+– Haber aprobado el Curso de Formación en Música (Programa de Extensión Académica del IUPA). <br> <br>
+<big><b>Plan de estudio:</b></big> <a href="https://iupa.edu.ar/sitio/wp-content/uploads/2017/10/planLICenINTERPRETACIONMUSICAL-2018.pdf">Aqui</a> <br>
+<big><b>BECAS</b></big> <br>
+Para conocer el Programa de Becas del IUPA ingresar <a href="https://becas.uncoma.edu.ar/">AQUI,</a>
+</a> <br> <br>
+
+<big><b>INSCRIPCIÓN 2025</b></big> <br> <br>
+<a href="https://guarani.iupa.edu.ar/preinscripcion/iupa/">Preinscribirme ahora</a> <br> <br>
+<big><b><a href="#inicio">Ir al inicio</a></b></big>
+</p>
+</div>
+<div id="contenedor-3">
+  <a name="Lic. en Interpretación Musical orientación Canto"></a>
+  <h2>Lic. en Interpretación Musical orientación Canto</h2> <br>
+  <p><big><b>TÍTULO:</b></big>Licenciatura en Interpretación Musical orientación Canto
+    <br> <br>
+     <big><b> DURACIÓN:</b></big> 5 AÑOS <br> <br>
+     La Licenciatura en Música con orientación en Canto tiene por objeto el desarrollo de las cualidades vocales de los estudiantes para una optimización de su calidad sonora
+     expresiva, potenciando la formación de intérpretes vocales aptos para ejecutar diversos repertorios de la música académica, tanto sinfónico vocales, escénicos y camarísticos, en distintos idiomas, que les permitirán insertarse en el campo profesional. <br> <br>
+     
+     Asimismo, los alumnos adquirirán los conocimientos necesarios para integrar ensambles y coros profesionales dedicados a diversos géneros de la música vocal. <br> <br>
+     La Carrera acentúa espacios de experimentación en lo referente a las técnicas de actuación y el desenvolvimiento escénico de los cantantes, tanto en producciones performáticas como en conciertos de cámara. <br> <br>
+     
+     Por otra parte, la Carrera promueve la interpretación y difusión de obras de compositores argentinos y latinoamericanos con la finalidad de fortalecer dicha identidad cultural. 
+<br> <br> 
+<big><b> Requisitos académicos para obtener el título:</b></big> – Ciclo de nivel medio de la enseñanza común completo. Mayores de 25 años sin título secundario: cumplir con los requisitos definidos por el Art. 7° de la Ley N° 24.521 y lo establecido por la reglamentación del IUPA.
+
+– Haber cumplimentado el Curso Introductorio Universitario del IUPA. <br>
+
+– Haber aprobado el Ciclo Introductorio de Estudios Musicales de la carrera canto o instrumento del IUPA o
+
+– Haber aprobado el Curso de Formación en Música (Programa de Extensión Académica del IUPA). <br> <br>
+<big><b>Plan de estudio:</b></big> <a href="https://iupa.edu.ar/sitio/wp-content/uploads/2017/10/planLICenINTERPRETACIONMUSICAL-2018.pdf">Aqui</a> <br>
+<big><b>BECAS</b></big> <br>
+Para conocer el Programa de Becas del IUPA ingresar <a href="https://becas.uncoma.edu.ar/">AQUI,</a>
+</a> <br> <br>
+
+<big><b>INSCRIPCIÓN 2025</b></big> <br> <br>
+<a href="https://guarani.iupa.edu.ar/preinscripcion/iupa/">Preinscribirme ahora</a> <br> <br>
+<big><b><a href="#inicio">Ir al inicio</a></b></big>
+</p>
+</div>
+</div>
+</main>
+<footer>
+    <div class="container">
+      <div class="footer-content">
+
+        <div class="footer-section about">
+          <h3>Sobre las Universidades</h3>
+          <p>Breve descripción de las universidades, su misión y valores. Puedes incluir un enlace a una página "Acerca de" que detalle cada universidad.</p>
+        </div>
+
+        <div class="footer-section links">
+          <h3>Enlaces útiles</h3>
+          <ul>
+            <li><a href="#">Admisiones</a></li>
+            <li><a href="#">Programas académicos</a></li>
+            <li><a href="#">Investigación</a></li>
+            <li><a href="#">Vida estudiantil</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section contact">
+          <h3>Contacto</h3>
+          <p>Dirección: Calle Principal 123, Ciudad</p>
+          <p>Teléfono: +54 1234 5678</p>
+          <p>Email: info@universidades.edu</p>
+        </div>
+
+        <div class="footer-section social">
+          <h3>Síguenos</h3>
+          <ul>
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>   
+
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2024   
+ Universidades. Todos los derechos reservados.</p>
+      </div>
+
+    </div>
+  </footer>
+</body>
+</html>

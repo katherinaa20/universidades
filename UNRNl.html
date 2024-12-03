@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <a href="script.js"></a>
+    <a href="jason.json"></a>
+</head>
+<body>
+  <header>
+    <h1><big>DESCUBRI TU VOCACIÓN</big></h1> <br>
+    <nav>
+        <ul class="menu">
+          <li><a href="universidades.html">INICIO</a></li>
+          <li class="submenu">
+            <a href="#">UBICACIÓN</a>
+            <ul class="submenu-content">
+              <li><a href="rio.html">Río Negro</a></li>
+              <li><a href="viedma.html">Viedma</a></li>
+              <li><a href="nqn.html">Neuquén</a></li>
+            </ul>
+          </li>
+          <li><a href="#">PREGUNTAS</a></li>
+        </ul>
+      </nav>
+    
+</header>
+<main>
+    <div id="contenedor-1">
+        <a name="inicio"><h1><center>UNIVERSIDAD NACIONAL DE RIO NEGRO</center></h1> <br></a>
+ <center><img src="data:image/png;base64,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" alt=""></center>
+    </div>
+       <center><img src="data:image/jpeg;base64,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" alt=""></center>
+       <div id="contenedor">
+        <center><big><b><h2>Construyendo Futuro en la Patagonia</h2></b></big></center> <br>
+        <p>En esta pagina podras ver las carreras que ofrece la Universidad Nacional de Rio Negro, El perfil del estudiante egresado, El plan de estudio, La duración de la carrera. Tambien podras ingresar a la pagina oficial de la universidad, con la carreras.  </p> <br>
+        <p>Únete a la UNRN y sé parte de un proyecto educativo que no solo potencia tu crecimiento profesional, sino que también contribuye al desarrollo sostenible de la sociedad. nr
+
+        <br> <br>Pagina oficial: <a href="https://www.unrn.edu.ar/home">AQUI.</a>
+        </p>
+       </div>
+       <div id="contenedor-17">
+        <center><big><h2>INDICE</h2></big></center>
+       </div>
+<div id="contenedor-2">
+<ul class="columna columna-izquierda">
+    <ul>
+        <li><a href="#arquitectura">ARQUITECTURA</a></li>
+        <li><a href="#DISEÑADORA/O INDUSTRIAL">DISEÑADORA/O INDUSTRIAL</a></li>
+        <li><a href="#INGENIERA/O EN ALIMENTOS"> INGENIERA/O EN ALIMENTOS</a></li>
+        <li><a href="#INGENIERA/O EN BIOTECNOLOGÍA">INGENIERA/O EN BIOTECNOLOGÍA</a></li>
+        <li><a href="#LICENCIADO/A EN ADMINISTRACIÓN DE EMPRESAS">LICENCIADO/A EN ADMINISTRACIÓN DE EMPRESAS</a></li>
+      </ul>
+</ul>
+<ul class="columna columna-medio">
+    <ul>
+        <li><a href="#LICENCIADO/A EN ARTES VISUALES ORIENTACIONES EN PINTURA Y ARTES DE FUEGO">LICENCIADO/A EN ARTES VISUALES</a></li>
+        <li><a href="#LICENCIADO/A EN COMERCIO EXTERIOR"> LICENCIADO/A EN COMERCIO EXTERIOR</a></li>
+        <li><a href="#LICENCIADO/A EN CRIMINOLOGÍA Y CIENCIAS FORENSES"> LICENCIADO/A EN CRIMINOLOGÍA Y CIENCIAS FORENSES</a></li>
+        <li><a href="#LICENCIADA/O EN DISEÑO VISUAL"> LICENCIADA/O EN DISEÑO VISUAL</a></li>
+        <li><a href="#LICENCIADO/A EN GEOLOGÍA">LICENCIADO/A EN GEOLOGÍA</a></li>
+      </ul>
+</ul>
+<ul class="columna columna-derecha">
+    <ul>
+        <li><a href="#LICENCIADO/A EN PALEONTOLOGÍA">LICENCIADO/A EN PALEONTOLOGÍA</a></li>
+        <li><a href="#MÉDICO/A VETERINARIO/A">MÉDICO/A VETERINARIO/A</a></li>
+        <li><a href="#Odontología">Odontología</a></li>
+        <li><a href="#PROFESOR/A DE NIVEL MEDIO Y SUPERIOR EN BIOLOGÍA">PROFESOR/A DE NIVEL MEDIO Y SUPERIOR EN BIOLOGÍA</a></li>
+        <li><a href="#matematicas">Matemáticas</a></li>
+      </ul>
+</ul>
+</div>
+
+<div id="contenedor-3">
+    <a name="arquitectura"></a>
+    <h2>ARQUITECTURA</h2> <br>
+    <p><big><b>TÍTULO:</b></big> ARQUITECTO/A <br> <br>
+       <big><b> DURACIÓN:</b></big> 5 AÑOS <br> <br>
+        
+        En este fin de siglo, las prácticas profesionales reconocen escenarios y formas de acción que dan lugar a una participación diversa y múltiple del arquitecto/a donde se reafirma la formación ética y la responsabilidad social y política que conllevan las acciones profesionales. En este sentido, se demanda la formación de un profesional con perfil generalista pero al mismo tiempo con capacidades específicas en relación al territorio y el ambiente en el que está inserto su quehacer profesional. Apto a continuar aprendiendo, es decir: aprender a aprender y dotado de las siguientes capacidades: <br> <br>
+        - Capacidad de interpretar, en sus aspectos culturales y ambientales relevantes, las demandas individuales y colectivas de los segmentos humanos interesados en el trabajo del Arquitecto/a.
+
+- Capacidad de convertir esta interpretación en pautas programáticas que cubran el espectro de necesidades, aspiraciones y expectativas humanas en cuanto al ambiente culturalmente producido. <br>
+
+- Capacidad de transformar las pautas programáticas en proyectos arquitectónicos y urbanos dotados de consistencia en los aspectos instrumentales, técnico-constructivos y expresivos, considerando los respectivos contextos históricos, culturales y ambientales. <br>
+
+- Capacidad de llevar a cabo con eficiencia, las tareas pertinentes a la actividad constructiva y tecnológica como un todo en la obra de arquitectura, involucrando las técnicas constructivas apropiadas y todas las obras complementarias, como así también la higiene y la seguridad. <br>
+
+- Capacidad de ejercer las actividades de organización, dirección y gestión de naturaleza política, técnica y administrativa pertinente, en el plano correspondiente. <br> <br> 
+ <big><b>Título Intermedio</b></big> TÉCNICO/A UNIVERSITARIO/A EN REPRESENTACIÓN Y DOCUMENTACIÓN DE OBRA <br> 
+ <big><b>Plan de estudio:</b></big> <a href="https://www.unrn.edu.ar/archivos/planes/41/RM%20414_2021%20Tecnico%20en%20Representaci%C3%B3n%20y%20documentaci%C3%B3n%20de%20obras.pdf?v=1655227747">Aqui</a> <br>
+ <big><b>Similares:</b></big> <a href="https://www.unrn.edu.ar/archivos/planes/41/Res%20CSDEyVE%20N%20009%2018%20%20Texto%20ordenado%20Arquitectura.pdf?v=1655227751">RES CSDEyVE Nº 009-18 - Arquitectura</a> <br>
+ <big><b>BECAS</b></big> <br>
+ Para conocer el Programa de Becas de la UNRN ingresar <a href="https://www.unrn.edu.ar/section/48/becas-y-asignaciones.html">AQUI,</a> o solicitar información y asesoramiento a <a href="vidaestudiantil@unrn.edu.ar">vidaestudiantil@unrn.edu.ar.
+</a> <br> <br>
+   <big><b>CONDICIONES DE INGRESO</b></big> <br> <br>
+   <big><b>Propuesta de evaluación</b></big> <br>
+   Para el caso de la carrera de Arquitectura, (con 80 vacantes disponibles), se procederá a elaborar un Orden de Mérito, a partir de promediar los resultados de las cuatro (4) evaluaciones finales del curso, (que deberán ser aprobadas individualmente con nota mínima sesenta, (60)). 
+
+   Las evaluaciones finales correspondientes a cada módulo son OBLIGATORIAS y en ningún caso, tendrán recuperatorio ni posibilidad de rendir en otro momento al fijado por cronograma. <br> <br>
+ <big><b>Requisitos de aprobación</b></big> <br> <br>
+ Como ya se expresara, para la aprobación del Curso de Ingreso de la carrera de Arquitectura, (que no implica en automático el ingreso a la misma), cada postulante, deberá aprobar todos y cada uno de los 4 exámenes estructurados por Modulo, con nota mínima 60/100. 
+La NO aprobación o NO realización de alguna de estas pruebas, las/os dejará automáticamente fuera de la posibilidad de integrar el Orden de Mérito Final, desde donde se determinarán, los 80 puestos disponibles. <br> <br>
+<big><b>INSCRIPCIÓN 2025</b></big> <br> <br>
+Ya podés inscribirte a esta carrera para empezar a estudiar en 2025. El proceso es 100% online y tenés tiempo hasta el 31 de enero de 2025. <br> <br> 
+<a href="https://preinscripcion.unrn.edu.ar/preinscripcion/g3w/?__o=">Preinscribirme ahora</a> <br> <br>
+<big><b><a href="#inicio">Ir al inicio</a></b></big>
+</p>
+</div>
+<div id="contenedor-4">
+    <a name="DISEÑADORA/O INDUSTRIAL"></a>
+    <h2>DISEÑADORA/O INDUSTRIAL</h2> <br>
+    <p>
+        <big><b>TÍTULO:</b></big> DISEÑADOR/A DE INTERIORES Y MOBILIARIO<br> <br>
+       <big><b> DURACIÓN:</b></big> 4 AÑOS <br> <br>
+       El Diseño de Interiores y Mobiliario constituye una disciplina proyectual involucrada en el proceso de formar la experiencia del espacio interior. El/la profesional ejerce una práctica creativa que analiza la información programática, establece una dirección conceptual, refina la dirección del diseño, y elabora documentos gráficos de comunicación y de construcción.
+
+<br> <br> 
+ <big><b>DESARROLLO PROFESIONAL</b></big>  <br> <br>Los/las diseñadores/as de interiores y mobiliarios pueden realizar las siguientes actividades: <br>
+
+ - Planificar interiores de espacios domésticos, institucionales o comerciales. <br>
+ 
+ - Investigar y analizar la disposición y descripción de productos, espacios y objetos. <br>
+ 
+ - Diseñar mobiliario para uso doméstico, comercial o profesional. <br>
+ 
+ - Diseñar accesorios y revestimientos. <br>
+ 
+ - Proporcionar los servicios de gerencia de proyecto, incluyendo la preparación de los presupuestos y de los horarios de proyecto. <br>
+ 
+ - Elaborar los documentos de construcción que consisten en los planos, elevaciones, detalles y las especificaciones para ilustrar los varios elementos del concepto de diseño, incluyendo las disposiciones y localizaciones del tendido de energía y comunicaciones y las localizaciones no-estructurales o no-sísmicas, del techo, diseño de iluminación, la disposiciones de los muebles y los materiales. <br> <br>
+ <big><b>Plan de estudio:</b></big> <a href="https://www.unrn.edu.ar/archivos/planes/17/RES.%20477-20%20-%20DISE%C3%91ADOR-A%20DE%20INTERIORES%20Y%20MOBILIARIO.pdf?v=1591909653">Aqui</a> <br>
+ <big><b>Similares:</b></big> <a href="https://www.unrn.edu.ar/archivos/planes/17/Res%20CSDEyVE%20N%20046%2018%20Modificacion%20Plan%20DIM.pdf?v=1655227518">modificación plan</a> <br> <br>
+ <big><b>BECAS</b></big> <br>
+ Para conocer el Programa de Becas de la UNRN ingresar <a href="https://www.unrn.edu.ar/section/48/becas-y-asignaciones.html">AQUI,</a> o solicitar información y asesoramiento a <a href="vidaestudiantil@unrn.edu.ar">vidaestudiantil@unrn.edu.ar.
+</a> <br> <br>
+<big><b>INSCRIPCIÓN 2025</b></big> <br> <br>
+Ya podés inscribirte a esta carrera para empezar a estudiar en 2025. El proceso es 100% online y tenés tiempo hasta el 31 de enero de 2025. <br> <br> 
+<a href="https://preinscripcion.unrn.edu.ar/preinscripcion/g3w/?__o=">Preinscribirme ahora</a> <br> <br>
+ <big><b><a href="#inicio">Ir al inicio</a></b></big>
+    </p>
+</div>
+<div id="contenedor-5">
+    <a name="INGENIERA/O EN ALIMENTOS"></a>
+    <h2>INGENIERA/O EN ALIMENTOS</h2>
+    <p>
+        <p>
+            <big><b>TÍTULO:</b></big>  INGENIERA/O EN ALIMENTOS   <br> <br>
+           <big><b> DURACIÓN:</b></big> 5 AÑOS <br> <br>
+     <big><b>PERFIL DEL GRADUADO/A</b></big>  <br> <br>
+     El graduado/a en Ingeniería en Alimentos de la UNRN está capacitado/a para: <br> <br> 
+- Proyectar, planificar, calcular y controlar las instalaciones, maquinarias e instrumentos de establecimientos industriales y/o comerciales en los que se involucre fabricación, transformación y/o fraccionamiento y envasado de los productos alimenticios contemplados en la legislación vigente. <br> 
+- Controlar todas las operaciones intervinientes en los procesos industriales de fabricación, transformación y/o fraccionamiento, envasado de los productos alimenticios contemplados en la legislación vigente y controlar sistemas de procesamiento industrial de alimentos. <br> 
+- Investigar y desarrollar técnicas de fabricación, transformación y/o fraccionamiento y envasado de alimentos. <br> 
+- Supervisar todas las operaciones correspondientes al control de calidad de las materias primas a procesar, los productos en elaboración y los productos elaborados, en la industria alimentaria. <br>  <br>
+<big><b>DESARROLLO PROFESIONAL</b></big>  <br> <br>
+El Ingeniero/a en Alimentos está habilitado/a para: <br> <br>
+- Establecer las normas operativas correspondientes a las diferentes etapas del proceso de fabricación, conservación, almacenamiento y comercialización de los productos alimenticios contemplados en la legislación vigente. <br>
+- Participar en la realización de estudios relativos a saneamiento ambiental, seguridad e higiene en la industria alimentaria, factibilidad relacionada con la radicación de establecimientos industriales destinados a la fabricación, transformación y/o fraccionamiento y envasado de los productos alimenticios contemplados en la legislación vigente. <br>
+- Realizar asesoramientos, peritajes y arbitrajes relacionados con las instalaciones, maquinarias e instrumentos y con los procesos de fabricación, transformación y/o fraccionamiento y envasado utilizados en la industria alimentaria. <br>  
+- Dirigir procesos y establecimientos industriales destinados a la fabricación, transformación y/o fraccionamiento y envasado de los productos alimenticios contemplados en la legislación vigente. <br>
+
+     <big><b>Plan de estudio:</b></big> <a href="https://www.unrn.edu.ar/archivos/planes/3/Res%2040%202008%20Ing%20Alimentos.pdf?v=1655226907">Aqui</a> <br>
+     <big><b>Similares:</b></big> <a href="https://www.unrn.edu.ar/archivos/planes/3/RES%2052%2015%20CONEAU_%20INGENIERIA%20EN%20ALIMENTOS_%20UNRN%20SEDE%20AVyVM.pdf?v=1564591888">RES 52 15 CONEAU_ INGENIERIA EN ALIMENTOS_ UNRN SEDE AVyVM.pdf</a> <br> <br>
+     <big><b>BECAS</b></big> <br>
+     Para conocer el Programa de Becas de la UNRN ingresar <a href="https://www.unrn.edu.ar/section/48/becas-y-asignaciones.html">AQUI,</a> o solicitar información y asesoramiento a <a href="vidaestudiantil@unrn.edu.ar">vidaestudiantil@unrn.edu.ar.
+    </a> <br> <br>
+    <big><b>INSCRIPCIÓN 2025</b></big> <br> <br>
+    Ya podés inscribirte a esta carrera para empezar a estudiar en 2025. El proceso es 100% online y tenés tiempo hasta el 31 de enero de 2025. <br> <br> 
+    <a href="https://preinscripcion.unrn.edu.ar/preinscripcion/g3w/?__o=">Preinscribirme ahora</a> <br> <br>
+     <big><b><a href="#inicio">Ir al inicio</a></b></big>
+    </p>
+</div>
+<div id="contenedor-6">
+    <a name="INGENIERA/O EN BIOTECNOLOGÍA"></a>
+    <h2>INGENIERA/O EN BIOTECNOLOGÍA</h2>
+    <p>    <p>
+        <big><b>TÍTULO:</b></big> INGENIERA/O EN BIOTECNOLOGÍA<br> <br>
+       <big><b> DURACIÓN:</b></big> 5 1/2 AÑOS <br> <br>
+       La Ingeniería Biotecnológica es la rama de la ingeniería que se ocupa del procesamiento industrial de materias primas para obtener productos de mayor valor a través de la acción de la acción de catalizadores biológicos (microorganismos, células animales o vegetales, enzimas y otros componentes subcelulares).
+
+       La Biotecnología es un conjunto de herramientas que en manos de profesionales capacitadas/os sirve de base para el desarrollo tecnológico y encuentra aplicaciones en diversos sectores productivos, permitiendo un aumento de su productividad y competitividad.
+       
+<br> <br> 
+ <big><b>CONSULTAS</b></big>  <br> <br> Por consultas, comunicarse con la Secretaria Técnica: Ing. Carolina Taraborelli a <a href="dir.ing.biotecnologia@unrn.edu.ar">dir.ing.biotecnologia@unrn.edu.ar.</a> <br> <br>
+ <big><b>Plan de estudio:</b></big> <a href="https://www.unrn.edu.ar/archivos/planes/2/RES%20CSDEyVE%20N%20010%2019%20Ing%20en%20Biotecnologia.pdf?v=1655226750">Aqui</a> <br>
+ <big><b>Similares:</b></big> <a href="https://www.unrn.edu.ar/archivos/planes/2/Res%20ME%20N%20308%2021%20Ing%20en%20Biotecnologia.pdf?v=1655226751">Res ME N 308 21 Ing en Biotecnologia.pdf</a> <br> <br>
+ <big><b>BECAS</b></big> <br>
+ Para conocer el Programa de Becas de la UNRN ingresar <a href="https://www.unrn.edu.ar/section/48/becas-y-asignaciones.html">AQUI,</a> o solicitar información y asesoramiento a <a href="vidaestudiantil@unrn.edu.ar">vidaestudiantil@unrn.edu.ar.
+</a> <br> <br>
+<big><b>INSCRIPCIÓN 2025</b></big> <br> <br>
+Ya podés inscribirte a esta carrera para empezar a estudiar en 2025. El proceso es 100% online y tenés tiempo hasta el 31 de enero de 2025. <br> <br> 
+<a href="https://preinscripcion.unrn.edu.ar/preinscripcion/g3w/?__o=">Preinscribirme ahora</a> <br> <br>
+ <big><b><a href="#inicio">Ir al inicio</a></b></big></p>
+</div>
+<div id="contenedor-7">
+    <a name="LICENCIADO/A EN ADMINISTRACIÓN DE EMPRESAS"></a>
+    <h2>LICENCIADO/A EN ADMINISTRACIÓN DE EMPRESAS</h2>
+    <p>  
+        <big><b>TÍTULO:</b></big> LICENCIADO/A EN ADMINISTRACIÓN DE EMPRESAS<br> <br>
+       <big><b> DURACIÓN:</b></big> 4 AÑOS <br> <br>
+       <big><b>PERFIL DEL GRADUADO/A </b></big> <br> <br>Las/os graduados de la Licenciatura en Administración de Empresas de la UNRN están capacitados para: <br> <br>
+       -Atender las funciones directivas de análisis, planeamiento, organización, coordinación y control de las empresas. <br>
+       -Desarrollar la elaboración e implantación de políticas, sistemas, métodos y procedimientos de administración, finanzas, comercialización, presupuestos, costos y administración de personal. <br>
+       -Proponer la definición y descripción de la estructura y funciones de la organización. <br>
+       -Llevar a cabo la aplicación e implantación de sistemas de procesamiento de datos y otros métodos en el proceso de información gerencial. <br>
+       -Entender en lo referente a relaciones industriales, sistemas de remuneración y demás aspectos vinculados al factor humano en la empresa. <br>
+       -Atender toda cuestión de dirección o administración en materia económica y financiera con referencia a las funciones que le son propias. <br>
+       -Entender y responder a las necesidades administrativas de las distintas áreas funcionales de la empresa con una perspectiva integral. <br>
+       -Diseñar e implementar estrategias y planes de negocio que permitan a la empresa identificar oportunidades y crear ventajas competitivas sustentables. <br>
+       -Definir criterios que permitan evaluar proyectos, medir riesgos, y controlar de manera continua el desempeño de la empresa y el cumplimiento de objetivos. <br>
+       
+<br> <br> 
+ <big><b>DESARROLLO PROFESIONAL</b></big>  <br> <br>
+ Las/os Administradores de Empresas, entre otras opciones, pueden: <br> <br>
+ -Insertarse en las empresas y desarrollar una carrera ejecutiva <br>
+ -Crear y desarrollar su propio emprendimiento <br>
+ -Desempeñarse en organismos e instituciones públicas <br> <br>
+ <big><b>TÍTULO INTERMEDIO</b></big> <br> <br>
+ Las/os graduados de la UNRN con el título de Técnico/a Universitario/a en Administración de Empresas estarán capacitados/as para: <br> <br>
+-Operar procesos administrativos en el ámbito de empresas productoras y comercializadoras de bienes y servicios. <br>
+-Ejecutar y tramitar operaciones, principalmente en la gestión de empresas de servicios <br>
+-Intervenir en tramitaciones de cuestiones administrativas empresariales <br>
+-Asistir a los niveles gerenciales en incumbencias de gestión de empresas <br>
+-Insertarse en las empresas y desarrollar una carrera ejecutiva <br>
+-Participar en el desarrollo, elaboración e implantación de políticas, sistemas, métodos y procedimientos de administración, finanzas, comercialización, presupuestos, costos y administración de personal. <br> <br>
+
+
+ <big><b>Plan de estudio:</b></big> <a href="https://www.unrn.edu.ar/archivos/planes/62/RESOLUCION%20ME%201564%2013_%20LICENCIATURA%20EN%20ADMINISTRACION%20DE%20EMPRESAS.pdf?v=1551964990">Aqui</a> <br>
+ <big><b>Similares:</b></big> <a href="https://www.unrn.edu.ar/archivos/planes/62/Res%20CDEVE%20053%2012%20%20LAE.pdf?v=1655227144"> Res CDEVE 053 12 LAE.pdf</a> <br> <br>
+ <big><b>BECAS</b></big> <br>
+ Para conocer el Programa de Becas de la UNRN ingresar <a href="https://www.unrn.edu.ar/section/48/becas-y-asignaciones.html">AQUI,</a> o solicitar información y asesoramiento a <a href="vidaestudiantil@unrn.edu.ar">vidaestudiantil@unrn.edu.ar.
+</a> <br> <br>
+<big><b>INSCRIPCIÓN 2025</b></big> <br> <br>
+Ya podés inscribirte a esta carrera para empezar a estudiar en 2025. El proceso es 100% online y tenés tiempo hasta el 31 de enero de 2025. <br> <br> 
+<a href="https://preinscripcion.unrn.edu.ar/preinscripcion/g3w/?__o=">Preinscribirme ahora</a> <br> <br>
+ <big><b><a href="#inicio">Ir al inicio</a></b></big></p>
+</div>
+<div id="contenedor-8">
+    <a name="LICENCIADO/A EN ARTES VISUALES ORIENTACIONES EN PINTURA Y ARTES DE FUEGO"></a>
+    <h2>LICENCIADO/A EN ARTES VISUALES. ORIENTACIONES EN PINTURA Y ARTES DE FUEGO</h2>
+    <p> <big><b>TÍTULO:</b></big> LICENCIADO/A EN ARTES VISUALES. ORIENTACIONES EN PINTURA Y ARTES DE FUEGO<br> <br>
+        <big><b> DURACIÓN:</b></big> 4 AÑOS <br> <br>
+        <big><b>PERFIL DEL GRADUADO/A </b></big> <br> <br>
+        El graduado/a de la Licenciatura en Artes Visuales cuenta con: <br> <br>
+        -Conocimientos prácticos y técnicos completos en las disciplinas específicamente necesarias para la producción de objetos y/o eventos estéticos y comunicacionales. <br>
+        -Herramientas teóricas que le permitan valorar, contextualizar y preservar su obra y la de los demás.  <br>
+        -Conciencia crítica y creativa.  <br>
+        -Conocimiento preciso sobre la historia, formas estéticas, técnicas y materiales. <br>
+        -Capacidad de investigación y análisis científicos a aplicar, según la naturaleza de la obra. <br>
+        
+ <br> <br> 
+ 
+  <big><b>Plan de estudio:</b></big> <a href="https://www.unrn.edu.ar/archivos/planes/45/RESOLUCION%20ME%202409%2013_%20LICENCIATURA%20EN%20ARTES%20VISUALES.pdf?v=1551965238">Aqui</a> <br>
+  <big><b>Similares:</b></big> <a href="https://www.unrn.edu.ar/archivos/planes/45/RESOLUCION%20CDEyVE%20020%2012.pdf?v=1552406213"> RESOLUCION CDEyVE 020 12.pdf</a> <br> <br>
+  <big><b>BECAS</b></big> <br>
+  Para conocer el Programa de Becas de la UNRN ingresar <a href="https://www.unrn.edu.ar/section/48/becas-y-asignaciones.html">AQUI,</a> o solicitar información y asesoramiento a <a href="vidaestudiantil@unrn.edu.ar">vidaestudiantil@unrn.edu.ar.
+ </a> <br> <br>
+ <big><b>INSCRIPCIÓN 2025</b></big> <br> <br>
+ Ya podés inscribirte a esta carrera para empezar a estudiar en 2025. El proceso es 100% online y tenés tiempo hasta el 31 de enero de 2025. <br> <br> 
+ <a href="https://preinscripcion.unrn.edu.ar/preinscripcion/g3w/?__o=">Preinscribirme ahora</a> <br> <br>
+  <big><b><a href="#inicio">Ir al inicio</a></b></big></p>
+</div>
+<div id="contenedor-8">
+    <a name="LICENCIADO/A EN COMERCIO EXTERIOR"></a>
+    <h2>LICENCIADO/A EN COMERCIO EXTERIOR</h2>
+    <p>        <big><b>TÍTULO:</b></big> LICENCIADO/A EN COMERCIO EXTERIOR<br> <br>
+        <big><b> DURACIÓN:</b></big> 4 AÑOS <br> <br>
+        La Licenciatura en Comercio Exterior de la UNRN forma profesionales para: <br> <br>
+        -Estudios de mercados y proyecciones de oferta y demanda en mercado internacional. <br>
+        -Estudios y análisis de coyuntura global, sectorial y regional referidos a la especialidad. <br>
+        -Análisis y fijación de precios y políticas de precios de exportación para productos y servicios, tradicionales o no tradicionales. <br>
+        -Análisis y determinación de costos de importación de productos y servicios tradicionales. <br>
+        -Evaluación económica y financiera de proyectos de inversión privada y pública para la exportación e importación de productos y servicios <br>
+        -Elaboración de estudios de proyectos de promoción de exportaciones a nivel púbico y privado. <br>
+        -Planificación, coordinación, ejecución y control de todas las actividades y tareas que directa o indirectamente vinculen al sector privado exportados e importador a instituciones de carácter público tales como Ministerios, Administración nacional de Aduanas, bancos Oficiales y privados, etc.; y a éstos con l sector privado. <br>
+        -Asesoramiento integral al sector público en toda la actividad del ámbito nacional referida a la exportación e importación de productos y servicios, especialmente las referidas a la implementación de medidas de tipo cambiario, impositivo, crediticio, fijación de tasas y recargos aduaneros, regímenes promocionales, etc. <br>
+        -Estudios, análisis, proyectos y asesoramiento al sector público y privado en materia de trasportes internacionales para la exportación e importación de productos y servicios. <br>
+        -Estudios, análisis, proyectos y asesoramiento al sector público en materia de envases y embalajes de productos de exportación e importación. <br>
+        
+ <br> <br> 
+ 
+  <big><b>Plan de estudio:</b></big> <a href="https://www.unrn.edu.ar/archivos/planes/34/Plan%20de%20Estudios%20-%20Licenciatura%20en%20Comercio%20Exterior%20-%20Sede%20Alto%20Valle%20y%20Valle%20Medio.pdf?v=1540404212">Aqui</a> <br>
+  <big><b>Similares:</b></big> <a href="https://www.unrn.edu.ar/archivos/planes/34/Res%20ME%20538-2013%20-%20Licenciatura%20en%20Comercio%20Exterior.pdf?v=1507074243"> Res ME 538-2013 - Licenciatura en Comercio Exterior.pdf</a> <br> <br>
+  <big><b>BECAS</b></big> <br>
+  Para conocer el Programa de Becas de la UNRN ingresar <a href="https://www.unrn.edu.ar/section/48/becas-y-asignaciones.html">AQUI,</a> o solicitar información y asesoramiento a <a href="vidaestudiantil@unrn.edu.ar">vidaestudiantil@unrn.edu.ar.
+ </a> <br> <br>
+ <big><b>INSCRIPCIÓN 2025</b></big> <br> <br>
+ Ya podés inscribirte a esta carrera para empezar a estudiar en 2025. El proceso es 100% online y tenés tiempo hasta el 31 de enero de 2025. <br> <br> 
+ <a href="https://preinscripcion.unrn.edu.ar/preinscripcion/g3w/?__o=">Preinscribirme ahora</a> <br> <br>
+  <big><b><a href="#inicio">Ir al inicio</a></b></big></p>
+</div>
+<div id="contenedor-10">
+    <a name="LICENCIADO/A EN CRIMINOLOGÍA Y CIENCIAS FORENSES"></a>
+    <h2> LICENCIADO/A EN CRIMINOLOGÍA Y CIENCIAS FORENSES</h2>
+    <p>        <big><b>TÍTULO:</b></big> LICENCIADO/A EN CRIMINOLOGÍA Y CIENCIAS FORENSES<br> <br>
+        <big><b> DURACIÓN:</b></big> 4 AÑOS <br> <br>
+        <big><b>PERFIL DEL GRADUADO/A </b></big> <br> <br>El/la Licenciado/a en Criminología y Ciencias Forenses está capacitado/a para: <br> <br>
+
+        - Desarrollar estudios e investigaciones destinados a resolver situaciones y hechos delictivos, mediante métodos y técnicas de identificación de las personas involucradas y de los elementos implicados, así como de búsqueda y verificación de evidencias con total respeto de los derechos y garantías individuales. <br>
+        
+        - Elaborar estadísticas e investigaciones relacionadas con el delito, organizar bases de datos y confeccionar mapas de delitos en distintas jurisdicciones. <br>
+        
+        
+        - Integrar y/o liderar equipos interdisciplinarios de investigación en criminología y ciencias forenses y participar en estudios del campo de distinta naturaleza. 
+        
+        
+ <br> <br> 
+  <big><b>DESARROLLO PROFESIONAL</b></big>  <br> <br>
+  El/la Licenciado/a en Criminología y Ciencias Forenses puede desempeñarse cumpliendo las siguientes funciones: <br> <br>
+
+- Planificar, organizar y dirigir organismos, departamentos y laboratorios de investigación en ciencias forenses, tanto estatales como privados. <br> 
+
+- Dirigir y participar en peritajes concernientes a la identificación de las personas involucradas en un delito y de los elementos implicados en el mismo. <br>
+
+
+- Desarrollar acciones de liderazgo para conducir equipos de trabajo de investigación del delito. <br>
+
+
+
+Las y los estudiantes de la Licenciatura en Criminología y Ciencias Forenses realizan prácticas sociales con instituciones de las provincias de Río Negro y Neuquén.
+  <br> <br>
+  <big><b>Plan de estudio:</b></big> <a href="https://www.unrn.edu.ar/archivos/planes/22/Plan%20de%20Estudios%20-%20Licenciatura%20en%20Criminolog%C3%ADa%20y%20Ciencias%20Forenses%20-%20Sede%20Alto%20Valle%20y%20Valle%20Medio.pdf?v=1540404409">Aqui</a> <br>
+  <big><b>Similares:</b></big> <a href="https://www.unrn.edu.ar/archivos/planes/22/RESOLUCION%201905%2012_%20LICENCIATURA%20EN%20CRIMINOLOGIA%20Y%20CIENCIAS%20FORENSES.pdf?v=1551965557">RESOLUCION 1905 12_ LICENCIATURA EN CRIMINOLOGIA Y CIENCIAS FORENSES.pdf</a> <br> <br>
+  <big><b>BECAS</b></big> <br>
+  Para conocer el Programa de Becas de la UNRN ingresar <a href="https://www.unrn.edu.ar/section/48/becas-y-asignaciones.html">AQUI,</a> o solicitar información y asesoramiento a <a href="vidaestudiantil@unrn.edu.ar">vidaestudiantil@unrn.edu.ar.
+ </a> <br> <br>
+ <big><b>INSCRIPCIÓN 2025</b></big> <br> <br>
+ Ya podés inscribirte a esta carrera para empezar a estudiar en 2025. El proceso es 100% online y tenés tiempo hasta el 31 de enero de 2025. <br> <br> 
+ <a href="https://preinscripcion.unrn.edu.ar/preinscripcion/g3w/?__o=">Preinscribirme ahora</a> <br> <br>
+  <big><b><a href="#inicio">Ir al inicio</a></b></big></p>
+</div>
+<div id="contenedor-11">
+    <a name="LICENCIADA/O EN DISEÑO VISUAL"></a>
+    <h2> LICENCIADA/O EN DISEÑO VISUAL</h2>
+    <p>        <big><b>TÍTULO:</b></big> LICENCIADA/O EN DISEÑO VISUAL <br> <br>
+        <big><b> DURACIÓN:</b></big> 4 AÑOS <br> <br>
+        <big><b>PERFIL DEL GRADUADO/A </b></big> <br> <br>
+        La UNRN formará un/a Licenciado/a en Diseño Visual con un perfil profesional de una marcada impronta proyectual, consolidado por una necesaria apoyatura instrumental y teórica. Un perfil provisto de sólidas herramientas teóricas-conceptuales-técnicas en las distintas áreas epistemológicas que componen el campo de esta disciplina del diseño, que le posibilite desempeñarse tanto en organizaciones del ámbito público, privado y tercer sector, siendo capaz de resolver los problemas profesionales básicos, más generales y frecuentes en todas las esferas de su actuación y desempeñarse con idoneidad en todos los campos de su ejercicio como diseñadores, desde la perspectiva de la realidad local y regional, con inserción en el ámbito social en el que interviene, con espíritu crítico, innovador y propositivo, sobre la base de valores solidarios y humanistas. <br> <br>
+ <big><b>Se pretende que el/la estudiante adquiera los siguientes conocimientos y habilidades:</b></big> <br> <br> 
+ - Comprender la cultura del diseño contemporáneo, analizar críticamente y buscar interpretaciones y metodologías proyectuales adecuadas para los problemas de diseño. <br>
+- Concebir al diseño visual como una disciplina que opera sobre la cultura y la sociedad, que apunta a la acción proyectual, cognoscitiva y persuasiva, que, con diversidad de enfoques su finalidad es producir interfaces para asegurar la transmisión de contenidos que estén en constante adecuación con la realidad. <br>
+- Actuar en el amplio campo del diseño visual, tanto en las organizaciones públicas o privadas tradicionales con o sin fines de lucro, como en las realidades alternativas, con habilidades tanto para el diseño, organización, gestión, conducción, control y/o asesoramiento de las mismas, como para formular, producir y ejecutar políticas de diseño y comunicación que favorezcan su desarrollo.  <br>
+- Adquirir capacidades para analizar y evaluar con rigor los procesos y la diversidad de ideas y pensamientos en el devenir histórico y su vinculación con la compleja realidad social, cultural y política de nuestros días, a fin de contribuir al diseño de modelos, productos y objetos tangibles e intangibles, analógicos y digitales que interpreten y expliquen el comportamiento e impacto de los fenómenos tecnológicos - informativos - comunicativos de los distintos agentes y contextos.  <br>
+- Elaborar programas de gestión del diseño a través de estrategias y políticas de implementación apropiadas que contribuyan con el diseño universal accesible, inclusivo y sustentable. <br>
+- Asumir el compromiso ético de trabajar al servicio de la sociedad, respetando principios fundamentales de la libertad, igualdad, solidaridad, la forma republicana de gobierno, las instituciones democráticas, y responsabilidad por el bienestar de las generaciones futuras. <br>
+- Desarrollar actitudes que consideren los estudios de postgrado, a fin de especializarse en las diversas ramas e intereses de la disciplina, actualizarse y perfeccionarse permanentemente en sus conocimientos y habilidades, particularmente en el acceso a las diversas herramientas tecnológicas y la comprensión lectora de otras lenguas que aumente su potencial como profesional, docente o investigador/a. <br>
+- Adquirir habilidades para la planificación, gestión,  administración y comercialización de servicios y proyectos que resulten de su actividad profesional. <br>
+- Desarrollar capacidad interdisciplinaria para adaptarse a los cambios de la disciplina y sus demandas profesionales, logrando una mayor especialización, tendencia muy acentuada en el diseño contemporáneo. <br>
+- Ser responsable y competente en el manejo de las identidades y de las realidades socioculturales y los efectos que se desencadenan en las sociedades actuales a partir del empleo de los recursos tecnológicos aplicados al acceso al conocimiento, el trabajo y el entretenimiento. <br>
+- Analizar críticamente las potencialidades de la revolución tecnológica en el campo del diseño, de las comunicaciones. <br> <br>
+
+  <big><b>DESARROLLO PROFESIONAL</b></big>  <br> <br>
+  <big><b> El/la graduado/a de la carrera estará capacitado/a para desempeñarse en:
+</b></big> <br> <br>
+- Departamentos de diseño como diseñadores/as creativos/as, consultores/as, asesores/as de producción en: programas de identidad para instituciones, empresas y productos; gráfica aplicada; señalización; creación de lenguajes y códigos visuales; diseño de información complejo; campañas de interés social, cultural, político; diseño de stands y exposiciones; diseño de envases; diseño editorial, entre otros. <br>
+- Áreas de coordinación encargadas de supervisar la intervención de quienes realicen operaciones creativas y técnicas parciales en los equipos de producción dentro del proceso proyectual en el área de diseño y medios, en agencias de publicidad, editoriales, departamentos de arte o 
+- Estudios de factibilidad, programación, gestación, creación, desarrollo, supervisión, control y realización de producciones de diseño en medios gráficos, audiovisuales, interactivos, de comunicación masiva, televisión, cinematografía y espacios virtuales, en sus aspectos de imagen y contenido. <br>
+- Áreas especialistas en recursos tecnológicos existentes en el mercado que pretendan agilizar, economizar y hacer más eficaces y eficientes los procesos productivos y lograr que el diseño tenga un enfoque centrado en el usuario siendo así universal, inclusivo y sustentable. <br>
+- Espacios de consultoría para instituciones públicas o privadas respecto de problemas de diseño gráfico y comunicación visual. <br>
+- Departamentos de auditorías, pericias, tasaciones y presupuestos de proyectos de diseño de producción analógica y/o digital virtual. <br>
+- Sectores relacionados a la planificación y diseño de normas y patrones de sistemas de comunicación pública o privada y cualquier otra tarea profesional emergente de las actividades que competen a la carrera de diseño gráfico/visual. <br>
+- Espacios de curaduría, donde se realicen actividades que afecten al diseño, al arte y exhibición de productos gráficos/visuales en todos sus soportes y modalidades. <br>
+-Instituciones educativas, como docentes universitarios/as y/o investigadores <br>
+- El/la egresado/a de la carrera estará capacitado/a para realizar propuestas con creatividad sobre problemáticas de diseño gráfico/visual –en el sentido amplio del concepto disciplinar actual–, atendiendo a las necesidades de un contexto socio-tecnológico en permanente transformación. <br>
+- Desarrollará capacidades y habilidades para coordinar metodológica y sistemáticamente los conceptos, técnicas e instrumentos inherentes a la práctica proyectual, tanto en forma independiente como en equipos disciplinares e interdisciplinarios, y estará en condiciones de participar, contribuir y producir actividades de investigación, desarrollo y transferencia en el marco de su disciplina. 
+<br> <br>
+  <big><b>Todos los años, las y los estudiantes presentan su producción académica en la Expo Diseño de la UNRN, fortaleciendo su identidad colectiva y el sentido de pertenencia institucional.
+</b></big> <br> <br>
+ 
+  <big><b>Plan de estudio:</b></big> <a href="https://www.unrn.edu.ar/archivos/planes/19/Areas%20de%20conocimiento%20ldv%202023.jpg?v=1675349762">Aqui</a> <br>
+  <big><b>Similares:</b></big> <a href="https://www.unrn.edu.ar/archivos/planes/19/Mapa%20curricular%20ldv%202023-01.jpg?v=1675349769">MAPA CURRICULAR LICENCIATURA EN DISEÑO VISUAL 2023</a> <br> <br>
+  <big><b>BECAS</b></big> <br>
+  Para conocer el Programa de Becas de la UNRN ingresar <a href="https://www.unrn.edu.ar/section/48/becas-y-asignaciones.html">AQUI,</a> o solicitar información y asesoramiento a <a href="vidaestudiantil@unrn.edu.ar">vidaestudiantil@unrn.edu.ar.
+ </a> <br> <br>
+ <big><b>INSCRIPCIÓN 2025</b></big> <br> <br>
+ Ya podés inscribirte a esta carrera para empezar a estudiar en 2025. El proceso es 100% online y tenés tiempo hasta el 31 de enero de 2025. <br> <br> 
+ <a href="https://preinscripcion.unrn.edu.ar/preinscripcion/g3w/?__o=">Preinscribirme ahora</a> <br> <br>
+  <big><b><a href="#inicio">Ir al inicio</a></b></big></p>
+</div>
+<div id="contenedor-12">
+    <a name="LICENCIADO/A EN GEOLOGÍA"></a>
+    <h2>LICENCIADO/A EN GEOLOGÍA</h2>
+    <p>        <big><b>TÍTULO:</b></big> LICENCIADA/O EN DISEÑO VISUAL <br> <br>
+        <big><b> DURACIÓN:</b></big> 4 AÑOS <br> <br>
+        <big><b>PERFIL DEL GRADUADO/A </b></big> <br> <br>
+        La UNRN formará un/a Licenciado/a en Diseño Visual con un perfil profesional de una marcada impronta proyectual, consolidado por una necesaria apoyatura instrumental y teórica. Un perfil provisto de sólidas herramientas teóricas-conceptuales-técnicas en las distintas áreas epistemológicas que componen el campo de esta disciplina del diseño, que le posibilite desempeñarse tanto en organizaciones del ámbito público, privado y tercer sector, siendo capaz de resolver los problemas profesionales básicos, más generales y frecuentes en todas las esferas de su actuación y desempeñarse con idoneidad en todos los campos de su ejercicio como diseñadores, desde la perspectiva de la realidad local y regional, con inserción en el ámbito social en el que interviene, con espíritu crítico, innovador y propositivo, sobre la base de valores solidarios y humanistas. <br> <br>
+ <big><b>Se pretende que el/la estudiante adquiera los siguientes conocimientos y habilidades:</b></big> <br> <br> 
+ - Comprender la cultura del diseño contemporáneo, analizar críticamente y buscar interpretaciones y metodologías proyectuales adecuadas para los problemas de diseño. <br>
+- Concebir al diseño visual como una disciplina que opera sobre la cultura y la sociedad, que apunta a la acción proyectual, cognoscitiva y persuasiva, que, con diversidad de enfoques su finalidad es producir interfaces para asegurar la transmisión de contenidos que estén en constante adecuación con la realidad. <br>
+- Actuar en el amplio campo del diseño visual, tanto en las organizaciones públicas o privadas tradicionales con o sin fines de lucro, como en las realidades alternativas, con habilidades tanto para el diseño, organización, gestión, conducción, control y/o asesoramiento de las mismas, como para formular, producir y ejecutar políticas de diseño y comunicación que favorezcan su desarrollo.  <br>
+- Adquirir capacidades para analizar y evaluar con rigor los procesos y la diversidad de ideas y pensamientos en el devenir histórico y su vinculación con la compleja realidad social, cultural y política de nuestros días, a fin de contribuir al diseño de modelos, productos y objetos tangibles e intangibles, analógicos y digitales que interpreten y expliquen el comportamiento e impacto de los fenómenos tecnológicos - informativos - comunicativos de los distintos agentes y contextos.  <br>
+- Elaborar programas de gestión del diseño a través de estrategias y políticas de implementación apropiadas que contribuyan con el diseño universal accesible, inclusivo y sustentable. <br>
+- Asumir el compromiso ético de trabajar al servicio de la sociedad, respetando principios fundamentales de la libertad, igualdad, solidaridad, la forma republicana de gobierno, las instituciones democráticas, y responsabilidad por el bienestar de las generaciones futuras. <br>
+- Desarrollar actitudes que consideren los estudios de postgrado, a fin de especializarse en las diversas ramas e intereses de la disciplina, actualizarse y perfeccionarse permanentemente en sus conocimientos y habilidades, particularmente en el acceso a las diversas herramientas tecnológicas y la comprensión lectora de otras lenguas que aumente su potencial como profesional, docente o investigador/a. <br>
+- Adquirir habilidades para la planificación, gestión,  administración y comercialización de servicios y proyectos que resulten de su actividad profesional. <br>
+- Desarrollar capacidad interdisciplinaria para adaptarse a los cambios de la disciplina y sus demandas profesionales, logrando una mayor especialización, tendencia muy acentuada en el diseño contemporáneo. <br>
+- Ser responsable y competente en el manejo de las identidades y de las realidades socioculturales y los efectos que se desencadenan en las sociedades actuales a partir del empleo de los recursos tecnológicos aplicados al acceso al conocimiento, el trabajo y el entretenimiento. <br>
+- Analizar críticamente las potencialidades de la revolución tecnológica en el campo del diseño, de las comunicaciones. <br> <br>
+
+  <big><b>DESARROLLO PROFESIONAL</b></big>  <br> <br>
+  <big><b> El/la graduado/a de la carrera estará capacitado/a para desempeñarse en:
+</b></big> <br> <br>
+- Departamentos de diseño como diseñadores/as creativos/as, consultores/as, asesores/as de producción en: programas de identidad para instituciones, empresas y productos; gráfica aplicada; señalización; creación de lenguajes y códigos visuales; diseño de información complejo; campañas de interés social, cultural, político; diseño de stands y exposiciones; diseño de envases; diseño editorial, entre otros. <br>
+- Áreas de coordinación encargadas de supervisar la intervención de quienes realicen operaciones creativas y técnicas parciales en los equipos de producción dentro del proceso proyectual en el área de diseño y medios, en agencias de publicidad, editoriales, departamentos de arte o 
+- Estudios de factibilidad, programación, gestación, creación, desarrollo, supervisión, control y realización de producciones de diseño en medios gráficos, audiovisuales, interactivos, de comunicación masiva, televisión, cinematografía y espacios virtuales, en sus aspectos de imagen y contenido. <br>
+- Áreas especialistas en recursos tecnológicos existentes en el mercado que pretendan agilizar, economizar y hacer más eficaces y eficientes los procesos productivos y lograr que el diseño tenga un enfoque centrado en el usuario siendo así universal, inclusivo y sustentable. <br>
+- Espacios de consultoría para instituciones públicas o privadas respecto de problemas de diseño gráfico y comunicación visual. <br>
+- Departamentos de auditorías, pericias, tasaciones y presupuestos de proyectos de diseño de producción analógica y/o digital virtual. <br>
+- Sectores relacionados a la planificación y diseño de normas y patrones de sistemas de comunicación pública o privada y cualquier otra tarea profesional emergente de las actividades que competen a la carrera de diseño gráfico/visual. <br>
+- Espacios de curaduría, donde se realicen actividades que afecten al diseño, al arte y exhibición de productos gráficos/visuales en todos sus soportes y modalidades. <br>
+-Instituciones educativas, como docentes universitarios/as y/o investigadores <br>
+- El/la egresado/a de la carrera estará capacitado/a para realizar propuestas con creatividad sobre problemáticas de diseño gráfico/visual –en el sentido amplio del concepto disciplinar actual–, atendiendo a las necesidades de un contexto socio-tecnológico en permanente transformación. <br>
+- Desarrollará capacidades y habilidades para coordinar metodológica y sistemáticamente los conceptos, técnicas e instrumentos inherentes a la práctica proyectual, tanto en forma independiente como en equipos disciplinares e interdisciplinarios, y estará en condiciones de participar, contribuir y producir actividades de investigación, desarrollo y transferencia en el marco de su disciplina. 
+<br> <br>
+  <big><b>Todos los años, las y los estudiantes presentan su producción académica en la Expo Diseño de la UNRN, fortaleciendo su identidad colectiva y el sentido de pertenencia institucional.
+</b></big> <br> <br>
+ 
+  <big><b>Plan de estudio:</b></big> <a href="https://www.unrn.edu.ar/archivos/planes/19/Areas%20de%20conocimiento%20ldv%202023.jpg?v=1675349762">Aqui</a> <br>
+  <big><b>Similares:</b></big> <a href="https://www.unrn.edu.ar/archivos/planes/19/Mapa%20curricular%20ldv%202023-01.jpg?v=1675349769">MAPA CURRICULAR LICENCIATURA EN DISEÑO VISUAL 2023</a> <br> <br>
+  <big><b>BECAS</b></big> <br>
+  Para conocer el Programa de Becas de la UNRN ingresar <a href="https://www.unrn.edu.ar/section/48/becas-y-asignaciones.html">AQUI,</a> o solicitar información y asesoramiento a <a href="vidaestudiantil@unrn.edu.ar">vidaestudiantil@unrn.edu.ar.
+ </a> <br> <br>
+ <big><b>INSCRIPCIÓN 2025</b></big> <br> <br>
+ Ya podés inscribirte a esta carrera para empezar a estudiar en 2025. El proceso es 100% online y tenés tiempo hasta el 31 de enero de 2025. <br> <br> 
+ <a href="https://preinscripcion.unrn.edu.ar/preinscripcion/g3w/?__o=">Preinscribirme ahora</a> <br> <br>
+  <big><b><a href="#inicio">Ir al inicio</a></b></big></p>
+</div>
+<div id="contenedor-13">
+    <a name="LICENCIADO/A EN PALEONTOLOGÍA"></a>
+    <h2>LICENCIADO/A EN PALEONTOLOGÍA</h2>
+    <p>        <big><b>TÍTULO:</b></big> LICENCIADO/A EN PALEONTOLOGÍA <br> <br>
+        <big><b> DURACIÓN:</b></big> 5 AÑOS.COMPLETADOS LOS 3 PRIMEROS AÑOS RECIBÍS EL TÍTULO INTERMEDIO DE TÉCNICA/O UNIVERSITARIA/O EN METODOLOGÍA Y PRÁCTICA PALEONTOLÓGICA
+        <br> <br>
+        <big><b>PERFIL DEL GRADUADO/A </b></big> <br> <br>
+        El graduado/a de la carrera de Licenciatura en Paleontología de la UNRN es un/a profesional altamente calificado/a desde el punto de vista técnico para: <br> <br>
+        - Asesorar, diseñar y evaluar acciones tendientes a la protección del patrimonio paleontológico. <br>
+        - Ejercer cargos superiores, técnicos-administrativos y de gestión en materia de reconocimiento, promoción, protección, desarrollo y control del patrimonio paleontológico. <br>
+        - Ejercer cargos de gestión en áreas que competan al Estado en materia de reconocimiento, promoción, desarrollo y control del patrimonio paleontológico. <br>
+        - Participar en proyectos y equipos disciplinares e interdisciplinarios. <br>
+        - Trabajar colaborativamente en la solución de problemas que presenten las áreas de patrimonio paleontológico o el desarrollo científico. <br>
+        - Contribuir al desarrollo local, regional y nacional, favoreciendo  la integración económica, la inclusión y la cohesión social. <br> <br>
+        <big><b>Las y los estudiantes de la Licenciatura en Paleontología de la UNRN realizan prácticas profesionales en yacimientos paleontológicos de renombre mundial.</b></big> <br> <br>
+  <big><b>DESARROLLO PROFESIONAL</b></big>  <br> <br>
+  El Licenciado/a en Paleontología de la UNRN está capacitado/a para trabajar, tanto en el sector público como en el privado, en: <br> <br>
+  - Instituciones científicas, tales como CONICET, institutos universitarios, laboratorios y museos. <br>
+  - Instituciones educativas de nivel medio y superior. <br>
+  - Organismos gubernamentales y no gubernamentales. <br>
+  - Empresas relacionadas con la industria del petróleo. <br>
+  - Consultoría para proyectos y emprendimientos mineros, hidrocarburíferos, hidrogeológicos, entre otros. 
+<br> <br>
+  <big><b>La UNRN junto al CONICET cuenta con el Instituto en Investigación en Paleobiología y Geología (IIPG) en General Roca.
+</b></big> <br> <br>
+ <big><b>TÍTULO INTERMEDIO</b></big> <br> <br>
+ La Licenciatura en Paleontología tiene una duración total de 5 años. Completados los 3 primeros años recibís el título intermedio de Técnica/o Universitaria/o en Metodología y Práctica Paleontológica <br> <br>
+
+  <big><b>Plan de estudio:</b></big> <a href="https://www.unrn.edu.ar/archivos/planes/20/PLAN%20DE%20ESTUDIOS%202018_%20LICENCIATURA%20EN%20PALEONTOLOGIA.pdf?v=1551966062">Aqui</a> <br>
+  <big><b>Similares:</b></big> <a href="https://www.unrn.edu.ar/archivos/planes/20/RM%202475-20%20T%C3%89CNICO-A%20UNIVERSITARIIO-A%20EN%20METODOLOG%C3%8DA%20Y%20PR%C2%B4CTICA%20PALEONTOL%C3%93GICA%20y%20LIC%20EN%20PALEONTOLOG%C3%8DA.pdf?v=1705943419">RES CSDEyVE 023 18 _PLAN DE ESTUDIOS_ LICENCIATURA EN PALEONTOLOGIA.pdf</a> <br> <br>
+  <big><b>BECAS</b></big> <br>
+  Para conocer el Programa de Becas de la UNRN ingresar <a href="https://www.unrn.edu.ar/section/48/becas-y-asignaciones.html">AQUI,</a> o solicitar información y asesoramiento a <a href="vidaestudiantil@unrn.edu.ar">vidaestudiantil@unrn.edu.ar.
+ </a> <br> <br>
+ <big><b>INSCRIPCIÓN 2025</b></big> <br> <br>
+ Ya podés inscribirte a esta carrera para empezar a estudiar en 2025. El proceso es 100% online y tenés tiempo hasta el 31 de enero de 2025. <br> <br> 
+ <a href="https://preinscripcion.unrn.edu.ar/preinscripcion/g3w/?__o=">Preinscribirme ahora</a> <br> <br>
+  <big><b><a href="#inicio">Ir al inicio</a></b></big></p>
+</div>
+<div id="contenedor-14">
+    <a name="MÉDICO/A VETERINARIO/A"></a>
+    <h2>MÉDICO/A VETERINARIO/A</h2>
+    <p>        <big><b>TÍTULO:</b></big> MÉDICO/A VETERINARIO/A <br> <br>
+        <big><b> DURACIÓN:</b></big> 6 AÑOS <br> <br>
+        
+        La carrera Medicina Veterinaria de la UNRN tiene como objetivos proporcionar una formación generalista que capacite al/la profesional para ejercer la profesión y seguir programas de especialización; formar científica y tecnológicamente al/la profesional capacitándolo en la comprensión y resolución de problemas en los campos de la salud, el bienestar y la producción de las especies animales, así como también atender en la protección, calidad, tecnología e inocuidad de los alimentos de origen animal; y capacitar al veterinario/a en la investigación, desarrollo y transferencia, teniendo como objetivo la promoción de la salud, calidad de vida de los animales y del hombre, y una producción eficiente en el marco de un desarrollo sustentable. <br> <br>
+
+        <big><b>PERFIL DEL GRADUADO/A </b></big> <br> <br>
+        Medicina Veterinaria forma profesionales con: <br> <br>
+        -Una sólida formación humanística, con un fuerte compromiso hacia la sociedad, para ejercer la profesión en el justo marco legal y ético favoreciendo con su participación los desarrollos sustentables de las distintas producciones; <br>
+        -Capacidad teórica y práctica para dar respuestas a los inconvenientes productivos regionales planificando respuestas alternativas y capacidad para generar y/o incluirse en proyectos de investigación interdisciplinarios en el área de la salud de los animales y del hombre, así como en el mejoramiento animal; <br>
+        -Una formación en la práctica clínica de grandes y pequeños animales atendiendo al bienestar animal. <br>
+        -Una formación profesional, como agente de promoción de la salud, higiene y control de alimentos de origen animal, saneamiento ambiental y control de enfermedades. <br> <br>
+        
+  <big><b>ORIENTACIONES</b></big>  <br> <br>
+  El <a href="https://www.unrn.edu.ar/archivos/planes/7/Res%20CSDEyVE%20N%20008%2018%20Med%20Veterinaria.pdf?v=1655226097">Plan de Estudios</a> cuenta con cuatro orientaciones: Medicina de Pequeños Animales; Medicina de Grandes Animales; Producción Animal; y Medicina Preventiva, Salud Pública y Bromatología.
+<br> <br>
+  <big><b>Plan de estudio:</b></big> <a href="https://www.unrn.edu.ar/archivos/planes/7/RES%20460%2019_%20MEDICO%20VETERINARIO.pdf?v=1551963431">Aqui</a> <br>
+  <big><b>BECAS</b></big> <br>
+  Para conocer el Programa de Becas de la UNRN ingresar <a href="https://www.unrn.edu.ar/section/48/becas-y-asignaciones.html">AQUI,</a> o solicitar información y asesoramiento a <a href="vidaestudiantil@unrn.edu.ar">vidaestudiantil@unrn.edu.ar.
+ </a> <br> <br>
+ <big><b>INSCRIPCIÓN 2025</b></big> <br> <br>
+ Ya podés inscribirte a esta carrera para empezar a estudiar en 2025. El proceso es 100% online y tenés tiempo hasta el 31 de enero de 2025. <br> <br> 
+ <a href="https://preinscripcion.unrn.edu.ar/preinscripcion/g3w/?__o=">Preinscribirme ahora</a> <br> <br>
+  <big><b><a href="#inicio">Ir al inicio</a></b></big></p>
+</div>
+<div id="contenedor-15">
+    <a name="Odontología"></a>
+    <h2>Odontología</h2>
+    <p>        <big><b>TÍTULO:</b></big> ODONTÓLOGA/O <br> <br>
+        <big><b> DURACIÓN:</b></big> 6 AÑOS <br> <br>
+        <big><b>PERFIL DEL GRADUADO/A </b></big> <br> <br>
+        El graduado/a de la carrera de Odontología de la UNRN es un/a profesional: <br> <br>
+        - Con formación científica, humanística, profesional y bioética. <br> 
+        - Generalista, ético y moralmente comprometido/a con la sociedad, conocedor/a de las problemáticas de la región y del país. <br>
+        - Que posee una cultura amplia, acorde a su capacitación científico-profesional. <br>
+        - Sensibilizado/a y dispuesto/a al bien común. <br>
+        - Capaz de conocer, aplicar y evaluar los fundamentos, estrategias y recursos a utilizar para el diagnóstico de la salud bucal a nivel individual y poblacional. <br> <br>
+        
+  <big><b>DESARROLLO PROFESIONAL</b></big>  <br> <br>
+  El graduado/a en Odontología está capacitado/a para: <br> <br>
+  - Ejecutar acciones destinadas a anunciar, prescribir, indicar, aplicar o asesorar sobre cualquier procedimiento directo o indirecto de uso diagnóstico o pronóstico del Sistema Estomatognático. <br>
+  - Planear, programar o ejecutar acciones destinadas a la preservación, conservación, tratamiento y rehabilitación del Sistema  Estomatognático o a la provisión de cuidados paliativos. <br>
+  - Asesorar a nivel público o privado sobre planificación sanitaria en establecimiento asistenciales. <br>
+  - Realizar auditorías odontológicas, ya sea en individuos o comunidades. <br>
+  - Desarrollar e implementar planes de tratamiento de manera integral y monitorear su efectividad. <br>
+  - Participar en la promoción de salud y en la prevención de enfermedades bucales dentro y fuera de las consultas prácticas tradicionales.
+<br> <br>
+  <big><b>La Universidad Nacional de Río Negro cuenta con el Hospital Escuela de Odontología más austral del país, equipado con tecnología de primer nivel, donde las y los estudiantes realizan prácticas profesionales durante el transcurso de la carrera.
+
+</b></big> <br> <br>
+ 
+  <big><b>Plan de estudio:</b></big> <a href="https://www.unrn.edu.ar/archivos/planes/8/RES%20CDEyVE%20N%C2%BA%20119-14.%20Modifica%20Plan%20de%20Est%20Odontologia.pdf?v=1660743541">Aqui</a> <br>
+  <big><b>BECAS</b></big> <br>
+  Para conocer el Programa de Becas de la UNRN ingresar <a href="https://www.unrn.edu.ar/section/48/becas-y-asignaciones.html">AQUI,</a> o solicitar información y asesoramiento a <a href="vidaestudiantil@unrn.edu.ar">vidaestudiantil@unrn.edu.ar.
+ </a> <br> <br>
+ <big><b>INSCRIPCIÓN 2025</b></big> <br> <br>
+ Ya podés inscribirte a esta carrera para empezar a estudiar en 2025. El proceso es 100% online y tenés tiempo hasta el 31 de enero de 2025. <br> <br> 
+ <a href="https://preinscripcion.unrn.edu.ar/preinscripcion/g3w/?__o=">Preinscribirme ahora</a> <br> <br>
+  <big><b><a href="#inicio">Ir al inicio</a></b></big></p>
+</div>
+<div id="contenedor-16">
+    <a name="PROFESOR/A DE NIVEL MEDIO Y SUPERIOR EN BIOLOGÍA"></a>
+    <h2>PROFESOR/A DE NIVEL MEDIO Y SUPERIOR EN BIOLOGÍA</h2>
+    <p>
+        <big><b>TÍTULO:</b></big> PROFESOR/A DE NIVEL MEDIO Y SUPERIOR EN BIOLOGÍA <br> <br>
+        <big><b> DURACIÓN:</b></big> 4 AÑOS <br> <br>
+        <big><b>PERFIL DEL GRADUADO/A </b></big> <br> <br>
+        El graduado/a del Profesorado de Nivel Medio y Superior en Biología de la UNRN es un/a profesional con posibilidad de: <br> <br>
+        - Desempeñarse en todos los espacios curriculares de biología y materias afines <br>
+        - Orientarse en educación y salud; educación y ambiente; educación y biotecnología; y educación y paleobiología. <br>
+        - Formar parte de equipos de trabajo para la elaboración y aplicación de políticas y proyectos orientados a mejorar la calidad de la alfabetización científica. <br>
+        - Integrar y coordinar equipos de trabajo que desarrollen acciones educativas formales y no formales relacionadas con la promoción de la salud y el conocimiento y cuidado de los ambientes. 
+        
+        <br> <br>
+        
+  <big><b>DESARROLLO PROFESIONAL</b></big>  <br> <br>
+  El/la Profesor/a de Nivel Medio y Superior en Biología de la UNRN está capacitado/a para trabajar, tanto en el sector público como en el privado, en: <br> <br>
+  - Escuelas secundarias <br>
+  - Instituciones de educación superior terciarias y universitarias <br>
+  - Investigación y desarrollo tecnológico y educativo  <br>
+  - Asesoramiento y formación continua
+  
+<br> <br>
+  <big><b> A partir del segundo año de la carrera las y los estudiantes realizan prácticas profesionales de docencia en instituciones públicas de la ciudad de General Roca.
+
+
+</b></big> <br> <br>
+ 
+  <big><b>Plan de estudio:</b></big> <a href="https://www.unrn.edu.ar/archivos/planes/59/RES%20CSDEyVE%20N%20056%2021%20Modificacion%20Plan%20de%20Estudios%20Prof%20NMSB.pdf?v=1655227067">Aqui</a> <br>
+  <big><b>BECAS</b></big> <br>
+  Para conocer el Programa de Becas de la UNRN ingresar <a href="https://www.unrn.edu.ar/section/48/becas-y-asignaciones.html">AQUI,</a> o solicitar información y asesoramiento a <a href="vidaestudiantil@unrn.edu.ar">vidaestudiantil@unrn.edu.ar.
+ </a> <br> <br>
+ <big><b>INSCRIPCIÓN 2025</b></big> <br> <br>
+ Ya podés inscribirte a esta carrera para empezar a estudiar en 2025. El proceso es 100% online y tenés tiempo hasta el 31 de enero de 2025. <br> <br> 
+ <a href="https://preinscripcion.unrn.edu.ar/preinscripcion/g3w/?__o=">Preinscribirme ahora</a> <br> <br>
+  <big><b><a href="#inicio">Ir al inicio</a></b></big>
+    </p>
+</div>
+
+<div id="ia-section">
+  <h2>Pregunta a la IA</h2>
+  <input type="text" id="user-question" placeholder="Escribe tu pregunta">
+  <button onclick="sendQuestion()">Preguntar</button>
+  <div id="ai-answer"></div>
+</div>
+
+<script src="script.js"></script>
+</main>
+<footer class="footer">
+  <p>&copy; 2024 Guía Universitaria. Todos los derechos reservados.</p>
+</footer>
+</body>
+</html>
